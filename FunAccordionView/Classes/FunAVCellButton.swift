@@ -1,16 +1,16 @@
 //
-//  AccordianCellButton.swift
-//  cleanilycustomers
+//  FunAVCellButton.swift
+//  FunAccordionView
 //
-//  Created by Amrata Baghel on 09/30/2016.
-//  Copyright (c) 2016 Amrata Baghel. All rights reserved.
+//  Created by Marc-André Appel on 27/12/2018.
+//  Copyright (c) 2018 Marc-André Appel. All rights reserved.
 //
 
 import UIKit
 
-class AccordianCellButton: UIButton {
+class FunAVCellButton: UIButton {
     
-    init(type: AccordianCellButtonType) {
+    init(type: FunAVCellButtonType) {
         super.init(frame: CGRect(x: 0, y: 0, width: 30, height: 30))
         self.setImage(imageForType(type)!, for: UIControlState())
     }
@@ -24,7 +24,7 @@ class AccordianCellButton: UIButton {
         super.init(coder: aDecoder)
     }
     
-    func imageForType(_ type: AccordianCellButtonType) -> UIImage? {
+    func imageForType(_ type: FunAVCellButtonType) -> UIImage? {
         let bundle = Bundle(for: Swift.type(of: self))
         switch(type) {
         case .expand :

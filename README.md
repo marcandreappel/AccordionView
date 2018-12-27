@@ -13,15 +13,15 @@
 
 
 
-ThreeLevelAccordian is a three level accordian for IOS. It owes its base code to [SwiftyAccordionCells](https://github.com/justinmfischer/SwiftyAccordionCells). Most of the design is customisable. It goes till three levels. You can customise the font, color, background color of items, add image to them etc. The innermost items can be multiline too. If an element does not have any child elements, expand icon is not shown against them. 
+FunAccordionView is a fork of ThreeLevelAccordian, a three level accordion for iOS. It itself owes its base code to [SwiftyAccordionCells](https://github.com/justinmfischer/SwiftyAccordionCells). Most of the design is customisable. It goes till three levels. You can customise the font, color, background color of items, add image to them etc. The innermost items can be multiline too. If an element does not have any child elements, expand icon is not shown against them. 
 
 
-![alt tag](https://github.com/amratab/ThreeLevelAccordian/blob/master/greenBgAccordianDemo.gif)
-![alt tag](https://github.com/amratab/ThreeLevelAccordian/blob/master/greenBgAccDemo.gif)
+![alt tag](https://github.com/marcandreappel/FunAccordionView/blob/master/greenBgAccordianDemo.gif)
+![alt tag](https://github.com/marcandreappel/FunAccordionView/blob/master/greenBgAccDemo.gif)
 
 
-![alt tag](https://github.com/amratab/ThreeLevelAccordian/blob/master/noCustomisationAccoridanDemo.gif)
-![alt tag](https://github.com/amratab/ThreeLevelAccordian/blob/master/whiteBgSmallAccDemo.gif)
+![alt tag](https://github.com/marcandreappel/FunAccordionView/blob/master/noCustomisationAccoridanDemo.gif)
+![alt tag](https://github.com/marcandreappel/FunAccordionView/blob/master/whiteBgSmallAccDemo.gif)
 
 ## Example
 
@@ -36,7 +36,9 @@ ThreeLevelAccordian is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ThreeLevelAccordian"
+
+  # pod "ThreeLevelAccordian"
+
 ```
 
 ##Basic Usage

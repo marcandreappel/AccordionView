@@ -1,9 +1,9 @@
 //
-//  TLAOption.swift
-//  Pods
+//  FunAVOption.swift
+//  FunAccordionView
 //
-//  Created by Amrata Baghel on 30/09/16.
-//  Copyright (c) 2016 Amrata Baghel. All rights reserved.
+//  Created by Marc-André Appel on 27/12/2018.
+//  Copyright (c) 2018 Marc-André Appel. All rights reserved.
 //
 
 import Foundation

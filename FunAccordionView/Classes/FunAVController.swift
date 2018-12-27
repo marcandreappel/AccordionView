@@ -1,18 +1,18 @@
 //
-//  TLAViewController.swift
-//  Pods
+//  FunAVController.swift
+//  FunAccordionView
 //
-//  Created by Amrata Baghel on 30/09/16.
-//  Copyright (c) 2016 Amrata Baghel. All rights reserved.
+//  Created by Marc-André Appel on 27/12/2018.
+//  Copyright (c) 2018 Marc-André Appel. All rights reserved.
 //
 
 import UIKit
 
-open class TLAViewController: UIViewController {
+open class FunAVController: UIViewController {
 
-    var cells: [TLACell] = [TLACell]()
-    var properties: [TLAOption] = [TLAOption]()
-    var delegate: TLADelegate!
+    var cells: [FunAVCell] = [FunAVCell]()
+    var properties: [FunAVOption] = [FunAVOption]()
+    var delegate: FunAVDelegate!
     //used for display
 
     var textColor: UIColor!
@@ -30,7 +30,7 @@ open class TLAViewController: UIViewController {
     //SubItem cell
     var subItemCellHeight: CGFloat = 44.0
     var subItemCellFont: UIFont!
-    var subItemCellBackgrondColor: UIColor!
+    var subItemCellBackgroundColor: UIColor!
     var subItemCellTextColor: UIColor!
     var isMultiline: Bool = true
 
@@ -47,7 +47,7 @@ open class TLAViewController: UIViewController {
 
 
     //used while working
-    var cellReuseIdentifier: String = "TLACell"
+    var cellReuseIdentifier: String = "FunAVCell"
     var selectedHeaderIndex: Int?
     var selectedItemIndex: Int?
     var selectedSubItemIndex: Int?
@@ -58,8 +58,8 @@ open class TLAViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    init(cells: [TLACell], options: [TLAOption]?, reuseIdentifier: String) {
-        super.init(nibName: "TLAViewController", bundle: nil)
+    init(cells: [FunAVCell], options: [FunAVOption]?, reuseIdentifier: String) {
+        super.init(nibName: "FunAV", bundle: nil)
         self.cells = cells
         if let options = options {
             self.properties = options
@@ -69,7 +69,6 @@ open class TLAViewController: UIViewController {
     }
 
     func finalizeProperties() {
-
         var cellFont: UIFont!
         var cellColor: UIColor!
         var cellBackgroundColor: UIColor!
@@ -77,7 +76,6 @@ open class TLAViewController: UIViewController {
         var useSingleValues: Bool = false
 
         for option in properties {
-
             switch (option) {
             case let .headerTextColor(value):
                 headerCellTextColor = value
@@ -92,7 +90,7 @@ open class TLAViewController: UIViewController {
             case let .subItemTextColor(value):
                 subItemCellTextColor = value
             case let .subItemCellBackgroundColor(value):
-                subItemCellBackgrondColor = value
+                subItemCellBackgroundColor = value
             case let .subItemCellHeight(value):
                 subItemCellHeight = value
             case let .isMultiline(value):
@@ -123,7 +121,6 @@ open class TLAViewController: UIViewController {
                 cellHeight = value
             }
         }
-
         if useSingleValues {
             if let cellFont = cellFont {
                 headerCellFont = cellFont
@@ -142,7 +139,7 @@ open class TLAViewController: UIViewController {
             }
             if let cellBackgroundColor = cellBackgroundColor {
                 headerCellBackgrondColor = cellBackgroundColor
-                subItemCellBackgrondColor = cellBackgroundColor
+                subItemCellBackgroundColor = cellBackgroundColor
                 itemCellBackgrondColor = cellBackgroundColor
             }
         }
@@ -165,13 +162,13 @@ open class TLAViewController: UIViewController {
     }
 
     func isExpandable(_ headerIndex: Int) -> Bool {
-        if self.cells[headerIndex] is TLAHeaderItem {
-            if headerIndex + 1 < self.cells.count && !(self.cells[headerIndex + 1] is TLASubItem) &&
-                       !(self.cells[headerIndex + 1] is TLAHeaderItem) {
+        if self.cells[headerIndex] is FunAVHeaderItem {
+            if headerIndex + 1 < self.cells.count && !(self.cells[headerIndex + 1] is FunAVSubItem) &&
+                       !(self.cells[headerIndex + 1] is FunAVHeaderItem) {
                 return true
             }
-        } else if !(self.cells[headerIndex] is TLASubItem) {
-            if (headerIndex + 1 < self.cells.count && self.cells[headerIndex + 1] is TLASubItem) {
+        } else if !(self.cells[headerIndex] is FunAVSubItem) {
+            if (headerIndex + 1 < self.cells.count && self.cells[headerIndex + 1] is FunAVSubItem) {
                 return true
             }
         }
@@ -180,12 +177,12 @@ open class TLAViewController: UIViewController {
 
     fileprivate func toggleVisible(_ headerIndex: Int, isHidden: Bool) {
         var headerIdx = headerIndex
-        if !(self.cells[headerIdx] is TLASubItem) {
-            if (self.cells[headerIdx] is TLAHeaderItem) {
+        if !(self.cells[headerIdx] is FunAVSubItem) {
+            if (self.cells[headerIdx] is FunAVHeaderItem) {
                 headerIdx = headerIdx + 1
 
-                while headerIdx < self.cells.count && !(self.cells[headerIdx] is TLAHeaderItem) {
-                    if !(self.cells[headerIdx] is TLASubItem) {
+                while headerIdx < self.cells.count && !(self.cells[headerIdx] is FunAVHeaderItem) {
+                    if !(self.cells[headerIdx] is FunAVSubItem) {
                         self.cells[headerIdx].isHidden = isHidden
                         if (isHidden) {
                             toggleVisible(headerIdx - 1, isHidden: isHidden)
@@ -196,7 +193,7 @@ open class TLAViewController: UIViewController {
 
             } else {
                 headerIdx = headerIdx + 1
-                if (self.cells[headerIdx] is TLASubItem) {
+                if (self.cells[headerIdx] is FunAVSubItem) {
                     self.cells[headerIdx].isHidden = isHidden
                 }
             }
@@ -205,7 +202,7 @@ open class TLAViewController: UIViewController {
 }
 
 
-extension TLAViewController: UITableViewDelegate, UITableViewDataSource {
+extension FunAVController: UITableViewDelegate, UITableViewDataSource {
 
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.cells.count
@@ -214,27 +211,27 @@ extension TLAViewController: UITableViewDelegate, UITableViewDataSource {
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let item = self.cells[(indexPath as NSIndexPath).row]
 
-        if item is TLAHeaderItem {
+        if item is FunAVHeaderItem {
             return headerCellHeight
         } else if (item.isHidden) {
             return 0
-        } else if (item as? TLASubItem != nil) {
+        } else if (item as? FunAVSubItem != nil) {
             if isMultiline {
                 tableView.estimatedRowHeight = 100
                 return UITableViewAutomaticDimension
             } else {
                 return subItemCellHeight
             }
-
         } else {
             return itemCellHeight
         }
     }
 
-
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let item = self.cells[(indexPath as NSIndexPath).row]
         let value = item.value as? String
+        
+
         if let cell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) {
             cell.textLabel?.text = value
             let label = cell.textLabel!
@@ -248,31 +245,27 @@ extension TLAViewController: UITableViewDelegate, UITableViewDataSource {
                 cell.accessoryType = UITableViewCellAccessoryType.none
                 cell.accessoryView = nil
             }
-
-            if let _ = item as? TLAHeaderItem {
+            if let _ = item as? FunAVHeaderItem {
                 if let headerFont = headerCellFont {
                     cell.textLabel?.font = headerFont
                 }
-
-
                 if let headerCellBackgroundColor = self.headerCellBackgrondColor {
                     cell.backgroundColor = headerCellBackgroundColor
                 }
                 if let headerCellTextColor = self.headerCellTextColor {
                     cell.textLabel?.textColor = headerCellTextColor
                 }
-            } else if (item as? TLASubItem != nil) {
+            } else if (item as? FunAVSubItem != nil) {
                 if isMultiline {
                     label.lineBreakMode = NSLineBreakMode.byWordWrapping
                     label.numberOfLines = 0
                     label.sizeToFit()
                 }
-
                 cell.accessoryView = nil
                 cell.accessoryType = UITableViewCellAccessoryType.none
 
-                if let subItemCellBackgrondColor = self.subItemCellBackgrondColor {
-                    cell.backgroundColor = subItemCellBackgrondColor
+                if let subItemCellBackgroundColor = self.subItemCellBackgroundColor {
+                    cell.backgroundColor = subItemCellBackgroundColor
                 }
                 if let subItemCellTextColor = self.subItemCellTextColor {
                     cell.textLabel?.textColor = subItemCellTextColor
@@ -291,24 +284,30 @@ extension TLAViewController: UITableViewDelegate, UITableViewDataSource {
                     cell.textLabel?.font = itemCellFont
                 }
             }
-
+            //
+            // Les paramètres transmis directement à la cellule sont privilégiés
+            //
+            if let backgroundColor = item.backgroundColor as? UIColor {
+                cell.backgroundColor = backgroundColor
+            }
+            if let textColor = item.textColor as? UIColor {
+                cell.textLabel?.textColor = textColor
+            }
             return cell
         }
         return UITableViewCell()
     }
 
-
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let item = self.cells[(indexPath as NSIndexPath).row]
         let cell = tableView.cellForRow(at: indexPath)
-        if item is TLAHeaderItem {
+        if item is FunAVHeaderItem {
             if self.selectedHeaderIndex == nil {
                 self.selectedHeaderIndex = (indexPath as NSIndexPath).row
             } else {
                 self.previouslySelectedHeaderIndex = self.selectedHeaderIndex
                 self.selectedHeaderIndex = (indexPath as NSIndexPath).row
             }
-
             if let previouslySelectedHeaderIndex = self.previouslySelectedHeaderIndex {
                 let previousIndexPath = IndexPath(item: previouslySelectedHeaderIndex, section: 0)
                 let previousCell = tableView.cellForRow(at: previousIndexPath)
@@ -319,11 +318,9 @@ extension TLAViewController: UITableViewDelegate, UITableViewDataSource {
                     previousCell?.accessoryType = UITableViewCellAccessoryType.none
                     previousCell?.accessoryView = nil
                 }
-
                 collapse(previouslySelectedHeaderIndex)
             }
-
-            var accessoryType: AccordianCellButtonType
+            var accessoryType: FunAVCellButtonType
             if self.previouslySelectedHeaderIndex != self.selectedHeaderIndex {
                 expand(self.selectedHeaderIndex!)
                 accessoryType = .collapse
@@ -339,8 +336,7 @@ extension TLAViewController: UITableViewDelegate, UITableViewDataSource {
                 cell?.accessoryType = UITableViewCellAccessoryType.none
                 cell?.accessoryView = nil
             }
-
-        } else if (item as? TLASubItem == nil) {
+        } else if (item as? FunAVSubItem == nil) {
             if self.selectedItemIndex == nil {
                 self.selectedItemIndex = (indexPath as NSIndexPath).row
             } else {
@@ -360,8 +356,7 @@ extension TLAViewController: UITableViewDelegate, UITableViewDataSource {
                 }
                 collapse(previouslySelectedItemIndex)
             }
-
-            var accessoryType: AccordianCellButtonType
+            var accessoryType: FunAVCellButtonType
             if self.previouslySelectedItemIndex != self.selectedItemIndex {
                 expand(self.selectedItemIndex!)
                 accessoryType = .collapse
@@ -380,25 +375,24 @@ extension TLAViewController: UITableViewDelegate, UITableViewDataSource {
         if let delegate = delegate {
             delegate.didSelectItemAtIndex((indexPath as NSIndexPath).row)
         }
-
         tableView.beginUpdates()
         tableView.endUpdates()
         self.updateHiddenItems(tableView)
     }
 
-    func accessory(for indexPath: IndexPath, and type: AccordianCellButtonType) -> UIView? {
+    func accessory(for indexPath: IndexPath, and type: FunAVCellButtonType) -> UIView? {
         if useAccessoryImages && isExpandable((indexPath as NSIndexPath).row) {
-            if type == AccordianCellButtonType.expand {
+            if type == FunAVCellButtonType.expand {
                 if let customExpandImage = self.customExpandImage {
-                    return AccordianCellAccessoryView.getCellAccessoryWithCustomImage(customExpandImage)
+                    return FunAVCellAccessoryView.getCellAccessoryWithCustomImage(customExpandImage)
                 }
             }
             if type == .collapse {
                 if let customCollapseImage = self.customCollapseImage {
-                    return AccordianCellAccessoryView.getCellAccessoryWithCustomImage(customCollapseImage)
+                    return FunAVCellAccessoryView.getCellAccessoryWithCustomImage(customCollapseImage)
                 }
             }
-            return AccordianCellAccessoryView.getCellAccessory(type)
+            return FunAVCellAccessoryView.getCellAccessory(type)
         }
         return nil
     }
@@ -409,7 +403,7 @@ extension TLAViewController: UITableViewDelegate, UITableViewDataSource {
 
     func updateHiddenItems(_ tableView: UITableView) {
         for (index, cell) in self.cells.enumerated() {
-            if ((cell as? TLASubItem == nil) && cell.isHidden) {
+            if ((cell as? FunAVSubItem == nil) && cell.isHidden) {
                 let indexPath = IndexPath(item: index, section: 0)
                 let hiddenCell = tableView.cellForRow(at: indexPath)
                 if let accessoryView = accessory(for: indexPath, and: .expand) {

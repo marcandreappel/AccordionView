@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for AccordionView.
-FOUNDATION_EXPORT double AccordionViewVersionNumber;
+//! Project version number for FunAccordionView.
+FOUNDATION_EXPORT double FunAccordionViewVersionNumber;
 
-//! Project version string for AccordionView.
-FOUNDATION_EXPORT const unsigned char AccordionViewVersionString[];
+//! Project version string for FunAccordionView.
+FOUNDATION_EXPORT const unsigned char FunAccordionViewVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FunAccordionView/PublicHeader.h>
 
