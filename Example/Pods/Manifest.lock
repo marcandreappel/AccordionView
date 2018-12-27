@@ -1,16 +1,16 @@
 PODS:
-  - ThreeLevelAccordian (0.1.0)
+  - FunAccordionView (1.0.0)
 
 DEPENDENCIES:
-  - ThreeLevelAccordian (from `../`)
+  - FunAccordionView (from `..`)
 
 EXTERNAL SOURCES:
-  ThreeLevelAccordian:
-    :path: "../"
+  FunAccordionView:
+    :path: ".."
 
 SPEC CHECKSUMS:
-  ThreeLevelAccordian: 46e3111360de729c739cf8b3cca07be1373acfbb
+  FunAccordionView: e6056c2bf969beeda0835c4c964f9c69521b29d4
 
-PODFILE CHECKSUM: a7ea1c144f06b27703582af7bc1ed66b5de3730b
+PODFILE CHECKSUM: 1b67388be35aeed1f088add2b370316bd0b93337
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.6.0.beta.2

@@ -1,6 +1,0 @@
-framework module ThreeLevelAccordian {
-  umbrella header "ThreeLevelAccordian-umbrella.h"
-
-  export *
-  module * { export * }
-}

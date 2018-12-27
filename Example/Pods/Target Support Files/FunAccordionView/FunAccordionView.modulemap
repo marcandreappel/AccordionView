@@ -1,0 +1,6 @@
+framework module FunAccordionView {
+  umbrella header "FunAccordionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
