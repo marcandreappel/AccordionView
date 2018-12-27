@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum TLAOption {
+public enum FunAVOption {
     case cellFont(UIFont)
     case cellColor(UIColor)
     case cellBackgroundColor(UIColor)

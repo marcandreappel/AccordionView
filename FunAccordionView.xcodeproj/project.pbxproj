@@ -7,39 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72D6B39421D5378000EA7478 /* FunAccordionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D6B39221D5378000EA7478 /* FunAccordionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72D6B39C21D5380C00EA7478 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B39A21D5380C00EA7478 /* Assets */; };
-		72D6B39D21D5380C00EA7478 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B39B21D5380C00EA7478 /* Classes */; };
-		72D6B39F21D5381E00EA7478 /* Example in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B39E21D5381E00EA7478 /* Example */; };
-		72D6B3A821D5383500EA7478 /* whiteBgSmallAccDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B3A021D5383500EA7478 /* whiteBgSmallAccDemo.gif */; };
-		72D6B3A921D5383500EA7478 /* greenBgAccDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B3A121D5383500EA7478 /* greenBgAccDemo.gif */; };
-		72D6B3AA21D5383500EA7478 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B3A221D5383500EA7478 /* README.md */; };
-		72D6B3AB21D5383500EA7478 /* greenBgAccordianDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B3A321D5383500EA7478 /* greenBgAccordianDemo.gif */; };
-		72D6B3AC21D5383500EA7478 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B3A421D5383500EA7478 /* .swift-version */; };
-		72D6B3AD21D5383500EA7478 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B3A521D5383500EA7478 /* .travis.yml */; };
-		72D6B3AE21D5383500EA7478 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B3A621D5383500EA7478 /* LICENSE */; };
-		72D6B3AF21D5383500EA7478 /* noCustomisationAccoridanDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B3A721D5383500EA7478 /* noCustomisationAccoridanDemo.gif */; };
+		72D6B3C221D5408000EA7478 /* FunAccordionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D6B3C021D5408000EA7478 /* FunAccordionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D6B3C921D540BC00EA7478 /* FunAccordionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6B3C821D540BC00EA7478 /* FunAccordionView.swift */; };
+		72D6B3CB21D540D100EA7478 /* FunAVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6B3CA21D540D100EA7478 /* FunAVCell.swift */; };
+		72D6B3CD21D540D900EA7478 /* FunAVCellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6B3CC21D540D900EA7478 /* FunAVCellButton.swift */; };
+		72D6B3CF21D540E800EA7478 /* FunAVCellButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6B3CE21D540E800EA7478 /* FunAVCellButtonType.swift */; };
+		72D6B3D121D540F000EA7478 /* FunAVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6B3D021D540F000EA7478 /* FunAVController.swift */; };
+		72D6B3D321D540F700EA7478 /* FunAVOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6B3D221D540F700EA7478 /* FunAVOption.swift */; };
+		72D6B3DA21D5420F00EA7478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B3D921D5420F00EA7478 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		72D6B38F21D5378000EA7478 /* FunAccordionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunAccordionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72D6B39221D5378000EA7478 /* FunAccordionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunAccordionView.h; sourceTree = "<group>"; };
-		72D6B39321D5378000EA7478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72D6B39A21D5380C00EA7478 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
-		72D6B39B21D5380C00EA7478 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
-		72D6B39E21D5381E00EA7478 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = "<group>"; };
-		72D6B3A021D5383500EA7478 /* whiteBgSmallAccDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whiteBgSmallAccDemo.gif; sourceTree = "<group>"; };
-		72D6B3A121D5383500EA7478 /* greenBgAccDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = greenBgAccDemo.gif; sourceTree = "<group>"; };
-		72D6B3A221D5383500EA7478 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		72D6B3A321D5383500EA7478 /* greenBgAccordianDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = greenBgAccordianDemo.gif; sourceTree = "<group>"; };
-		72D6B3A421D5383500EA7478 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
-		72D6B3A521D5383500EA7478 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
-		72D6B3A621D5383500EA7478 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		72D6B3A721D5383500EA7478 /* noCustomisationAccoridanDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = noCustomisationAccoridanDemo.gif; sourceTree = "<group>"; };
+		72D6B3BD21D5408000EA7478 /* FunAccordionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunAccordionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D6B3C021D5408000EA7478 /* FunAccordionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunAccordionView.h; sourceTree = "<group>"; };
+		72D6B3C121D5408000EA7478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D6B3C821D540BC00EA7478 /* FunAccordionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunAccordionView.swift; sourceTree = "<group>"; };
+		72D6B3CA21D540D100EA7478 /* FunAVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunAVCell.swift; sourceTree = "<group>"; };
+		72D6B3CC21D540D900EA7478 /* FunAVCellButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunAVCellButton.swift; sourceTree = "<group>"; };
+		72D6B3CE21D540E800EA7478 /* FunAVCellButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunAVCellButtonType.swift; sourceTree = "<group>"; };
+		72D6B3D021D540F000EA7478 /* FunAVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunAVController.swift; sourceTree = "<group>"; };
+		72D6B3D221D540F700EA7478 /* FunAVOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunAVOption.swift; sourceTree = "<group>"; };
+		72D6B3D921D5420F00EA7478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		72D6B38C21D5378000EA7478 /* Frameworks */ = {
+		72D6B3BA21D5408000EA7478 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,64 +41,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		72D6B38521D5378000EA7478 = {
+		72D6B3B321D5408000EA7478 = {
 			isa = PBXGroup;
 			children = (
-				72D6B3A421D5383500EA7478 /* .swift-version */,
-				72D6B3A521D5383500EA7478 /* .travis.yml */,
-				72D6B3A121D5383500EA7478 /* greenBgAccDemo.gif */,
-				72D6B3A321D5383500EA7478 /* greenBgAccordianDemo.gif */,
-				72D6B3A621D5383500EA7478 /* LICENSE */,
-				72D6B3A721D5383500EA7478 /* noCustomisationAccoridanDemo.gif */,
-				72D6B3A221D5383500EA7478 /* README.md */,
-				72D6B3A021D5383500EA7478 /* whiteBgSmallAccDemo.gif */,
-				72D6B39E21D5381E00EA7478 /* Example */,
-				72D6B39121D5378000EA7478 /* FunAccordionView */,
-				72D6B39021D5378000EA7478 /* Products */,
+				72D6B3BF21D5408000EA7478 /* FunAccordionView */,
+				72D6B3BE21D5408000EA7478 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		72D6B39021D5378000EA7478 /* Products */ = {
+		72D6B3BE21D5408000EA7478 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72D6B38F21D5378000EA7478 /* FunAccordionView.framework */,
+				72D6B3BD21D5408000EA7478 /* FunAccordionView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		72D6B39121D5378000EA7478 /* FunAccordionView */ = {
+		72D6B3BF21D5408000EA7478 /* FunAccordionView */ = {
 			isa = PBXGroup;
 			children = (
-				72D6B39A21D5380C00EA7478 /* Assets */,
-				72D6B39B21D5380C00EA7478 /* Classes */,
-				72D6B39221D5378000EA7478 /* FunAccordionView.h */,
-				72D6B39321D5378000EA7478 /* Info.plist */,
+				72D6B3C821D540BC00EA7478 /* FunAccordionView.swift */,
+				72D6B3D021D540F000EA7478 /* FunAVController.swift */,
+				72D6B3DB21D5424600EA7478 /* FunAVCell */,
+				72D6B3C021D5408000EA7478 /* FunAccordionView.h */,
+				72D6B3D221D540F700EA7478 /* FunAVOption.swift */,
+				72D6B3C121D5408000EA7478 /* Info.plist */,
+				72D6B3D921D5420F00EA7478 /* Assets.xcassets */,
 			);
 			path = FunAccordionView;
+			sourceTree = "<group>";
+		};
+		72D6B3DB21D5424600EA7478 /* FunAVCell */ = {
+			isa = PBXGroup;
+			children = (
+				72D6B3CA21D540D100EA7478 /* FunAVCell.swift */,
+				72D6B3CC21D540D900EA7478 /* FunAVCellButton.swift */,
+				72D6B3CE21D540E800EA7478 /* FunAVCellButtonType.swift */,
+			);
+			name = FunAVCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		72D6B38A21D5378000EA7478 /* Headers */ = {
+		72D6B3B821D5408000EA7478 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D6B39421D5378000EA7478 /* FunAccordionView.h in Headers */,
+				72D6B3C221D5408000EA7478 /* FunAccordionView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		72D6B38E21D5378000EA7478 /* FunAccordionView */ = {
+		72D6B3BC21D5408000EA7478 /* FunAccordionView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72D6B39721D5378000EA7478 /* Build configuration list for PBXNativeTarget "FunAccordionView" */;
+			buildConfigurationList = 72D6B3C521D5408000EA7478 /* Build configuration list for PBXNativeTarget "FunAccordionView" */;
 			buildPhases = (
-				72D6B38A21D5378000EA7478 /* Headers */,
-				72D6B38B21D5378000EA7478 /* Sources */,
-				72D6B38C21D5378000EA7478 /* Frameworks */,
-				72D6B38D21D5378000EA7478 /* Resources */,
+				72D6B3B821D5408000EA7478 /* Headers */,
+				72D6B3B921D5408000EA7478 /* Sources */,
+				72D6B3BA21D5408000EA7478 /* Frameworks */,
+				72D6B3BB21D5408000EA7478 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -114,73 +110,70 @@
 			);
 			name = FunAccordionView;
 			productName = FunAccordionView;
-			productReference = 72D6B38F21D5378000EA7478 /* FunAccordionView.framework */;
+			productReference = 72D6B3BD21D5408000EA7478 /* FunAccordionView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		72D6B38621D5378000EA7478 /* Project object */ = {
+		72D6B3B421D5408000EA7478 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Marc-André Appel";
 				TargetAttributes = {
-					72D6B38E21D5378000EA7478 = {
+					72D6B3BC21D5408000EA7478 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
-			buildConfigurationList = 72D6B38921D5378000EA7478 /* Build configuration list for PBXProject "FunAccordionView" */;
+			buildConfigurationList = 72D6B3B721D5408000EA7478 /* Build configuration list for PBXProject "FunAccordionView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 72D6B38521D5378000EA7478;
-			productRefGroup = 72D6B39021D5378000EA7478 /* Products */;
+			mainGroup = 72D6B3B321D5408000EA7478;
+			productRefGroup = 72D6B3BE21D5408000EA7478 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72D6B38E21D5378000EA7478 /* FunAccordionView */,
+				72D6B3BC21D5408000EA7478 /* FunAccordionView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		72D6B38D21D5378000EA7478 /* Resources */ = {
+		72D6B3BB21D5408000EA7478 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D6B3AA21D5383500EA7478 /* README.md in Resources */,
-				72D6B39F21D5381E00EA7478 /* Example in Resources */,
-				72D6B3AF21D5383500EA7478 /* noCustomisationAccoridanDemo.gif in Resources */,
-				72D6B3AB21D5383500EA7478 /* greenBgAccordianDemo.gif in Resources */,
-				72D6B3AD21D5383500EA7478 /* .travis.yml in Resources */,
-				72D6B3AE21D5383500EA7478 /* LICENSE in Resources */,
-				72D6B39C21D5380C00EA7478 /* Assets in Resources */,
-				72D6B3AC21D5383500EA7478 /* .swift-version in Resources */,
-				72D6B3A821D5383500EA7478 /* whiteBgSmallAccDemo.gif in Resources */,
-				72D6B39D21D5380C00EA7478 /* Classes in Resources */,
-				72D6B3A921D5383500EA7478 /* greenBgAccDemo.gif in Resources */,
+				72D6B3DA21D5420F00EA7478 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		72D6B38B21D5378000EA7478 /* Sources */ = {
+		72D6B3B921D5408000EA7478 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D6B3D121D540F000EA7478 /* FunAVController.swift in Sources */,
+				72D6B3CB21D540D100EA7478 /* FunAVCell.swift in Sources */,
+				72D6B3C921D540BC00EA7478 /* FunAccordionView.swift in Sources */,
+				72D6B3D321D540F700EA7478 /* FunAVOption.swift in Sources */,
+				72D6B3CF21D540E800EA7478 /* FunAVCellButtonType.swift in Sources */,
+				72D6B3CD21D540D900EA7478 /* FunAVCellButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		72D6B39521D5378000EA7478 /* Debug */ = {
+		72D6B3C321D5408000EA7478 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		72D6B39621D5378000EA7478 /* Release */ = {
+		72D6B3C421D5408000EA7478 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,9 +295,10 @@
 			};
 			name = Release;
 		};
-		72D6B39821D5378000EA7478 /* Debug */ = {
+		72D6B3C621D5408000EA7478 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -321,14 +315,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fun.appel.FunAccordionView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		72D6B39921D5378000EA7478 /* Release */ = {
+		72D6B3C721D5408000EA7478 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -353,25 +349,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72D6B38921D5378000EA7478 /* Build configuration list for PBXProject "FunAccordionView" */ = {
+		72D6B3B721D5408000EA7478 /* Build configuration list for PBXProject "FunAccordionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72D6B39521D5378000EA7478 /* Debug */,
-				72D6B39621D5378000EA7478 /* Release */,
+				72D6B3C321D5408000EA7478 /* Debug */,
+				72D6B3C421D5408000EA7478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72D6B39721D5378000EA7478 /* Build configuration list for PBXNativeTarget "FunAccordionView" */ = {
+		72D6B3C521D5408000EA7478 /* Build configuration list for PBXNativeTarget "FunAccordionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72D6B39821D5378000EA7478 /* Debug */,
-				72D6B39921D5378000EA7478 /* Release */,
+				72D6B3C621D5408000EA7478 /* Debug */,
+				72D6B3C721D5408000EA7478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 72D6B38621D5378000EA7478 /* Project object */;
+	rootObject = 72D6B3B421D5408000EA7478 /* Project object */;
 }

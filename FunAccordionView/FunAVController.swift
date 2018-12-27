@@ -218,7 +218,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
         } else if (item as? FunAVSubItem != nil) {
             if isMultiline {
                 tableView.estimatedRowHeight = 100
-                return UITableViewAutomaticDimension
+                return UITableView.automaticDimension
             } else {
                 return subItemCellHeight
             }
@@ -242,7 +242,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
             if let accessoryView = accessory(for: indexPath, and: .expand) {
                 cell.accessoryView = accessoryView
             } else {
-                cell.accessoryType = UITableViewCellAccessoryType.none
+                cell.accessoryType = UITableViewCell.AccessoryType.none
                 cell.accessoryView = nil
             }
             if let _ = item as? FunAVHeaderItem {
@@ -262,7 +262,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
                     label.sizeToFit()
                 }
                 cell.accessoryView = nil
-                cell.accessoryType = UITableViewCellAccessoryType.none
+                cell.accessoryType = UITableViewCell.AccessoryType.none
 
                 if let subItemCellBackgroundColor = self.subItemCellBackgroundColor {
                     cell.backgroundColor = subItemCellBackgroundColor
@@ -287,10 +287,10 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
             //
             // Les paramètres transmis directement à la cellule sont privilégiés
             //
-            if let backgroundColor = item.backgroundColor as? UIColor {
+            if let backgroundColor = item.backgroundColor {
                 cell.backgroundColor = backgroundColor
             }
-            if let textColor = item.textColor as? UIColor {
+            if let textColor = item.textColor {
                 cell.textLabel?.textColor = textColor
             }
             return cell
@@ -315,7 +315,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
                 if let accessoryView = accessory(for: previousIndexPath, and: .expand) {
                     previousCell?.accessoryView = accessoryView
                 } else {
-                    previousCell?.accessoryType = UITableViewCellAccessoryType.none
+                    previousCell?.accessoryType = UITableViewCell.AccessoryType.none
                     previousCell?.accessoryView = nil
                 }
                 collapse(previouslySelectedHeaderIndex)
@@ -333,7 +333,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
             if let accessoryView = accessory(for: indexPath, and: accessoryType) {
                 cell?.accessoryView = accessoryView
             } else {
-                cell?.accessoryType = UITableViewCellAccessoryType.none
+                cell?.accessoryType = UITableViewCell.AccessoryType.none
                 cell?.accessoryView = nil
             }
         } else if (item as? FunAVSubItem == nil) {
@@ -351,7 +351,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
                 if let accessoryView = accessory(for: previousIndexPath, and: .expand) {
                     previousCell?.accessoryView = accessoryView
                 } else {
-                    previousCell?.accessoryType = UITableViewCellAccessoryType.none
+                    previousCell?.accessoryType = UITableViewCell.AccessoryType.none
                     previousCell?.accessoryView = nil
                 }
                 collapse(previouslySelectedItemIndex)
@@ -368,7 +368,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
             if let accessoryView = accessory(for: indexPath, and: accessoryType) {
                 cell?.accessoryView = accessoryView
             } else {
-                cell?.accessoryType = UITableViewCellAccessoryType.none
+                cell?.accessoryType = UITableViewCell.AccessoryType.none
                 cell?.accessoryView = nil
             }
         }
@@ -409,7 +409,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
                 if let accessoryView = accessory(for: indexPath, and: .expand) {
                     hiddenCell?.accessoryView = accessoryView
                 } else {
-                    hiddenCell?.accessoryType = UITableViewCellAccessoryType.none
+                    hiddenCell?.accessoryType = UITableViewCell.AccessoryType.none
                     hiddenCell?.accessoryView = nil
                 }
             }
