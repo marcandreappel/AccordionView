@@ -1,5 +1,5 @@
 //
-//  ThreeLevelAccordian.swift
+//  FunAccordionView.swift
 //  Pods
 //
 //  Created by Amrata Baghel on 30/09/16.
@@ -9,15 +9,15 @@
 import Foundation
 import UIKit
 
-public protocol TLADelegate {
+public protocol FunAVDelegate {
     func didSelectItemAtIndex(_ index: Int)
 }
 
-open class ThreeLevelAccordian {
+open class AccordionView {
 
     open var controller: TLAViewController!
     
-    open var delegate: TLADelegate! {
+    open var delegate: FunAVDelegate! {
         didSet {
             controller.delegate = delegate
         }
