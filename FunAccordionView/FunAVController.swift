@@ -171,12 +171,12 @@ open class FunAVController: UIViewController {
     }
 
     func isExpandable(_ headerIndex: Int) -> Bool {
-        if self.cells[headerIndex] is FunAVHeaderItem {
-            if headerIndex + 1 < self.cells.count && !(self.cells[headerIndex + 1] is FunAVSubItem) && !(self.cells[headerIndex + 1] is FunAVHeaderItem) {
+        if self.cells[headerIndex] is FunAVHeaderCell {
+            if headerIndex + 1 < self.cells.count && !(self.cells[headerIndex + 1] is FunAVSubCell) && !(self.cells[headerIndex + 1] is FunAVHeaderCell) {
                 return true
             }
-        } else if !(self.cells[headerIndex] is FunAVSubItem) {
-            if (headerIndex + 1 < self.cells.count && self.cells[headerIndex + 1] is FunAVSubItem) {
+        } else if !(self.cells[headerIndex] is FunAVSubCell) {
+            if (headerIndex + 1 < self.cells.count && self.cells[headerIndex + 1] is FunAVSubCell) {
                 return true
             }
         }
@@ -187,12 +187,12 @@ open class FunAVController: UIViewController {
     //
     fileprivate func toggleVisible(_ headerIndex: Int, isHidden: Bool) {
         var headerIdx = headerIndex
-        if !(self.cells[headerIdx] is FunAVSubItem) {
-            if (self.cells[headerIdx] is FunAVHeaderItem) {
+        if !(self.cells[headerIdx] is FunAVSubCell) {
+            if (self.cells[headerIdx] is FunAVHeaderCell) {
                 headerIdx = headerIdx + 1
 
-                while headerIdx < self.cells.count && !(self.cells[headerIdx] is FunAVHeaderItem) {
-                    if !(self.cells[headerIdx] is FunAVSubItem) {
+                while headerIdx < self.cells.count && !(self.cells[headerIdx] is FunAVHeaderCell) {
+                    if !(self.cells[headerIdx] is FunAVSubCell) {
                         self.cells[headerIdx].isHidden = isHidden
                         if (isHidden) {
                             toggleVisible(headerIdx, isHidden: isHidden)
@@ -201,9 +201,7 @@ open class FunAVController: UIViewController {
                     headerIdx = headerIdx + 1
                 }
             } else {
-                headerIdx = headerIdx + 1
-
-                if (self.cells[headerIdx] is FunAVSubItem) {
+                if (self.cells[headerIdx] is FunAVSubCell) {
                     self.cells[headerIdx].isHidden = isHidden
                 }
             }
@@ -220,11 +218,11 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let item = self.cells[(indexPath as NSIndexPath).row]
 
-        if item is FunAVHeaderItem {
+        if item is FunAVHeaderCell {
             return headerCellHeight
         } else if (item.isHidden) {
             return 0
-        } else if (item as? FunAVSubItem != nil) {
+        } else if (item as? FunAVSubCell != nil) {
             if isMultiline {
                 tableView.estimatedRowHeight = 100
                 return UITableView.automaticDimension
@@ -244,8 +242,15 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
             cell.textLabel?.text = value
             let label = cell.textLabel!
             cell.imageView?.image = nil
-            if let headerImage = item.imageURL, let image = UIImage(named: headerImage) {
-                cell.imageView?.image = image
+            if let cellImage = item.image {
+                var image: UIImage?
+                if cellImage is String {
+                    image = UIImage(named: cellImage as! String)
+                }
+                if cellImage is UIImage {
+                    image = (cellImage as! UIImage)
+                }
+                cell.imageView?.image = image!
             }
             if let accessoryView = accessory(for: indexPath, and: .expand) {
                 cell.accessoryView = accessoryView
@@ -253,7 +258,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
                 cell.accessoryType = UITableViewCell.AccessoryType.none
                 cell.accessoryView = nil
             }
-            if let _ = item as? FunAVHeaderItem {
+            if let _ = item as? FunAVHeaderCell {
                 if let headerFont = headerCellFont {
                     cell.textLabel?.font = headerFont
                 }
@@ -263,7 +268,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
                 if let headerCellTextColor = self.headerCellTextColor {
                     cell.textLabel?.textColor = headerCellTextColor
                 }
-            } else if (item as? FunAVSubItem != nil) {
+            } else if (item as? FunAVSubCell != nil) {
                 if isMultiline {
                     label.lineBreakMode = NSLineBreakMode.byWordWrapping
                     label.numberOfLines = 0
@@ -310,7 +315,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
         let item = self.cells[(indexPath as NSIndexPath).row]
         let cell = tableView.cellForRow(at: indexPath)
 
-        if item is FunAVHeaderItem {
+        if item is FunAVHeaderCell {
             if self.selectedHeaderIndex == nil {
                 self.selectedHeaderIndex = (indexPath as NSIndexPath).row
             } else {
@@ -345,7 +350,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
                 cell?.accessoryType = UITableViewCell.AccessoryType.none
                 cell?.accessoryView = nil
             }
-        } else if (item as? FunAVSubItem == nil) {
+        } else if (item as? FunAVSubCell == nil) {
             if self.selectedItemIndex == nil {
                 self.selectedItemIndex = (indexPath as NSIndexPath).row
             } else {
@@ -412,7 +417,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
 
     func updateHiddenItems(_ tableView: UITableView) {
         for (index, cell) in self.cells.enumerated() {
-            if ((cell as? FunAVSubItem == nil) && cell.isHidden) {
+            if ((cell as? FunAVSubCell == nil) && cell.isHidden) {
                 let indexPath = IndexPath(item: index, section: 0)
                 let hiddenCell = tableView.cellForRow(at: indexPath)
                 if let accessoryView = accessory(for: indexPath, and: .expand) {
