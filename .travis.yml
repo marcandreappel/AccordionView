@@ -3,12 +3,12 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
-podfile: Example/Podfile
+podfile: FunAccordionViewExemple/Podfile
 osx_image: xcode10
-xcode_sdk: iphonesimulator12.0
+xcode_sdk: iphonesimulator12.1
 
 before_install:
   - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 
 script:
-- set -o pipefail && xcodebuild build -workspace Example/FunAccordionView.xcworkspace -scheme FunAccordionView-Example -sdk iphonesimulator12.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild build -workspace FunAccrodionViewExemple/FunAccordionViewExemple.xcworkspace -scheme FunAccordionViewExemple -sdk iphonesimulator12.1 ONLY_ACTIVE_ARCH=NO | xcpretty
