@@ -13,40 +13,48 @@ open class FunAVController: UIViewController {
     var cells: [FunAVCell] = [FunAVCell]()
     var properties: [FunAVOption] = [FunAVOption]()
     var delegate: FunAVDelegate!
-    //used for display
 
+    //
+    // Définir globalement certains paramètres d'affichage
+    //
     var textColor: UIColor!
     var font: UIFont!
     var cellBackgroundColor: UIColor!
 
-    //Cell Type specific
-
-    //Header cell
+    //
+    // Spécifique aux types de cellule
+    //
+    // Cellule d'en-tête
+    //
     var headerCellHeight: CGFloat = 60.0
     var headerCellFont: UIFont!
-    var headerCellBackgrondColor: UIColor!
+    var headerCellBackgroundColor: UIColor!
     var headerCellTextColor: UIColor!
 
-    //SubItem cell
+    //
+    // Sous-cellule
+    //
     var subItemCellHeight: CGFloat = 44.0
     var subItemCellFont: UIFont!
     var subItemCellBackgroundColor: UIColor!
     var subItemCellTextColor: UIColor!
     var isMultiline: Bool = true
 
-    //Item cell
+    //
+    // Cellule par défaut
+    //
     var itemCellHeight: CGFloat = 44.0
     var itemCellFont: UIFont!
-    var itemCellBackgrondColor: UIColor!
+    var itemCellBackgroundColor: UIColor!
     var itemCellTextColor: UIColor!
 
-    //Custom Accessory images
+    //
+    // Images accessoires
+    //
     var customExpandImage: UIImage!
     var customCollapseImage: UIImage!
     var useAccessoryImages: Bool = true
 
-
-    //used while working
     var cellReuseIdentifier: String = "FunAVCell"
     var selectedHeaderIndex: Int?
     var selectedItemIndex: Int?
@@ -59,8 +67,9 @@ open class FunAVController: UIViewController {
     }
 
     init(cells: [FunAVCell], options: [FunAVOption]?, reuseIdentifier: String) {
-        super.init(nibName: "FunAV", bundle: nil)
+        super.init(nibName: "FunAVCell", bundle: nil)
         self.cells = cells
+
         if let options = options {
             self.properties = options
         }
@@ -82,7 +91,7 @@ open class FunAVController: UIViewController {
             case let .headerTextFont(value):
                 headerCellFont = value
             case let .headerCellBackgroundColor(value):
-                headerCellBackgrondColor = value
+                headerCellBackgroundColor = value
             case let .headerCellHeight(value):
                 headerCellHeight = value
             case let .subItemTextFont(value):
@@ -100,7 +109,7 @@ open class FunAVController: UIViewController {
             case let .itemTextColor(value):
                 itemCellTextColor = value
             case let .itemCellBackgroundColor(value):
-                itemCellBackgrondColor = value
+                itemCellBackgroundColor = value
             case let .itemCellHeight(value):
                 itemCellHeight = value
             case let .expandIcon(value):
@@ -138,9 +147,9 @@ open class FunAVController: UIViewController {
                 itemCellTextColor = cellColor
             }
             if let cellBackgroundColor = cellBackgroundColor {
-                headerCellBackgrondColor = cellBackgroundColor
+                headerCellBackgroundColor = cellBackgroundColor
                 subItemCellBackgroundColor = cellBackgroundColor
-                itemCellBackgrondColor = cellBackgroundColor
+                itemCellBackgroundColor = cellBackgroundColor
             }
         }
     }
@@ -163,8 +172,7 @@ open class FunAVController: UIViewController {
 
     func isExpandable(_ headerIndex: Int) -> Bool {
         if self.cells[headerIndex] is FunAVHeaderItem {
-            if headerIndex + 1 < self.cells.count && !(self.cells[headerIndex + 1] is FunAVSubItem) &&
-                       !(self.cells[headerIndex + 1] is FunAVHeaderItem) {
+            if headerIndex + 1 < self.cells.count && !(self.cells[headerIndex + 1] is FunAVSubItem) && !(self.cells[headerIndex + 1] is FunAVHeaderItem) {
                 return true
             }
         } else if !(self.cells[headerIndex] is FunAVSubItem) {
@@ -174,7 +182,9 @@ open class FunAVController: UIViewController {
         }
         return false
     }
-
+    //
+    // TODO: Mieux gérer les boucles et les index
+    //
     fileprivate func toggleVisible(_ headerIndex: Int, isHidden: Bool) {
         var headerIdx = headerIndex
         if !(self.cells[headerIdx] is FunAVSubItem) {
@@ -190,9 +200,9 @@ open class FunAVController: UIViewController {
                     }
                     headerIdx = headerIdx + 1
                 }
-
             } else {
                 headerIdx = headerIdx + 1
+
                 if (self.cells[headerIdx] is FunAVSubItem) {
                     self.cells[headerIdx].isHidden = isHidden
                 }
@@ -200,7 +210,6 @@ open class FunAVController: UIViewController {
         }
     }
 }
-
 
 extension FunAVController: UITableViewDelegate, UITableViewDataSource {
 
@@ -230,7 +239,6 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let item = self.cells[(indexPath as NSIndexPath).row]
         let value = item.value as? String
-        
 
         if let cell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) {
             cell.textLabel?.text = value
@@ -249,7 +257,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
                 if let headerFont = headerCellFont {
                     cell.textLabel?.font = headerFont
                 }
-                if let headerCellBackgroundColor = self.headerCellBackgrondColor {
+                if let headerCellBackgroundColor = self.headerCellBackgroundColor {
                     cell.backgroundColor = headerCellBackgroundColor
                 }
                 if let headerCellTextColor = self.headerCellTextColor {
@@ -274,8 +282,8 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
                     cell.textLabel?.font = subItemCellFont
                 }
             } else {
-                if let itemCellBackgrondColor = self.itemCellBackgrondColor {
-                    cell.backgroundColor = itemCellBackgrondColor
+                if let itemCellBackgroundColor = self.itemCellBackgroundColor {
+                    cell.backgroundColor = itemCellBackgroundColor
                 }
                 if let itemCellTextColor = self.itemCellTextColor {
                     cell.textLabel?.textColor = itemCellTextColor
@@ -301,6 +309,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let item = self.cells[(indexPath as NSIndexPath).row]
         let cell = tableView.cellForRow(at: indexPath)
+
         if item is FunAVHeaderItem {
             if self.selectedHeaderIndex == nil {
                 self.selectedHeaderIndex = (indexPath as NSIndexPath).row
@@ -343,7 +352,6 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
                 self.previouslySelectedItemIndex = self.selectedItemIndex
                 self.selectedItemIndex = (indexPath as NSIndexPath).row
             }
-
             if let previouslySelectedItemIndex = self.previouslySelectedItemIndex {
                 let previousIndexPath = IndexPath(item: previouslySelectedItemIndex, section: 0)
                 let previousCell = tableView.cellForRow(at: previousIndexPath)
@@ -377,6 +385,7 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
         }
         tableView.beginUpdates()
         tableView.endUpdates()
+
         self.updateHiddenItems(tableView)
     }
 
