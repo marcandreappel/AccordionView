@@ -1,10 +1,10 @@
 # AccordionView *<small>(ThreeLevelAccordian)</small>*
 
-<!-- [![CI Status](https://travis-ci.org/amratab/ThreeLevelAccordian.svg?branch=master)](https://travis-ci.org/amratab/ThreeLevelAccordian/builds/247463503#)-->
+[![CI Status](https://travis-ci.org/marcandreappel/FunAccordionView.svg?branch=master)](https://travis-ci.org/marcandreappel/FunAccordionView/builds)
 [![Swift][swift-badge]][swift-url]
-[![Version](https://img.shields.io/cocoapods/v/ThreeLevelAccordian.svg?style=flat)](http://cocoapods.org/pods/ThreeLevelAccordian)
-[![License](https://img.shields.io/cocoapods/l/ThreeLevelAccordian.svg?style=flat)](http://cocoapods.org/pods/ThreeLevelAccordian)
-[![Platform](https://img.shields.io/cocoapods/p/ThreeLevelAccordian.svg?style=flat)](http://cocoapods.org/pods/ThreeLevelAccordian)
+[![Version](https://img.shields.io/cocoapods/v/FunAccordionView.svg?style=flat)](http://cocoapods.org/pods/FunAccordionView)
+[![License](https://img.shields.io/cocoapods/l/FunAccordionView.svg?style=flat)](http://cocoapods.org/pods/FunAccordionView)
+[![Platform](https://img.shields.io/cocoapods/p/FunAccordionView.svg?style=flat)](http://cocoapods.org/pods/FunAccordionView)
 
 [swift-badge]: https://img.shields.io/badge/Swift-4.2-orange.svg
 [swift-url]: https://swift.org
@@ -13,7 +13,7 @@
 
 
 
-FunAccordionView is a fork of ThreeLevelAccordian, a three level accordion for iOS. It itself owes its base code to [SwiftyAccordionCells](https://github.com/justinmfischer/SwiftyAccordionCells). Most of the design is customisable. It goes till three levels. You can customise the font, color, background color of items, add image to them etc. The innermost items can be multiline too. If an element does not have any child elements, expand icon is not shown against them. 
+FunAccordionView is a fork of Amrata Baghels [ThreeLevelAccordian](https://github.com/amratab/ThreeLevelAccordian), a three level accordion table view for iOS. It itself owes its base code to [SwiftyAccordionCells](https://github.com/justinmfischer/SwiftyAccordionCells). Most of the design is customisable. It goes till three levels. You can customise the font, color, background color of items, add image to them etc. The innermost items can be multiline too. If an element does not have any child elements, expand icon is not shown against them. 
 
 
 ![alt tag](https://github.com/marcandreappel/FunAccordionView/blob/master/greenBgAccordianDemo.gif)

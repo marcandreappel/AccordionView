@@ -6,7 +6,7 @@
 //  Copyright (c) 2018 Marc-André Appel. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 open class FunAVCell {
 

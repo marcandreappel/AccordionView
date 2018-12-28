@@ -15,6 +15,7 @@
 		72D6B3D121D540F000EA7478 /* FunAVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6B3D021D540F000EA7478 /* FunAVController.swift */; };
 		72D6B3D321D540F700EA7478 /* FunAVOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6B3D221D540F700EA7478 /* FunAVOption.swift */; };
 		72D6B3DA21D5420F00EA7478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B3D921D5420F00EA7478 /* Assets.xcassets */; };
+		72D6B41821D612CF00EA7478 /* FunAVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D6B41721D612CF00EA7478 /* FunAVCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		72D6B3D021D540F000EA7478 /* FunAVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunAVController.swift; sourceTree = "<group>"; };
 		72D6B3D221D540F700EA7478 /* FunAVOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunAVOption.swift; sourceTree = "<group>"; };
 		72D6B3D921D5420F00EA7478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72D6B41721D612CF00EA7478 /* FunAVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunAVCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				72D6B3CA21D540D100EA7478 /* FunAVCell.swift */,
 				72D6B3CC21D540D900EA7478 /* FunAVCellButton.swift */,
 				72D6B3CE21D540E800EA7478 /* FunAVCellButtonType.swift */,
+				72D6B41721D612CF00EA7478 /* FunAVCell.xib */,
 			);
 			name = FunAVCell;
 			sourceTree = "<group>";
@@ -103,6 +106,7 @@
 				72D6B3B921D5408000EA7478 /* Sources */,
 				72D6B3BA21D5408000EA7478 /* Frameworks */,
 				72D6B3BB21D5408000EA7478 /* Resources */,
+				72D6B41921D6138B00EA7478 /* Buildnumber */,
 			);
 			buildRules = (
 			);
@@ -150,11 +154,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D6B41821D612CF00EA7478 /* FunAVCell.xib in Resources */,
 				72D6B3DA21D5420F00EA7478 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72D6B41921D6138B00EA7478 /* Buildnumber */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Buildnumber;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72D6B3B921D5408000EA7478 /* Sources */ = {

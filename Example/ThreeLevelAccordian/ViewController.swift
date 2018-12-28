@@ -7,13 +7,13 @@
 //
 
 import UIKit
-import ThreeLevelAccordian
+import FunAccordionView
 
-class ViewController: UIViewController, TLADelegate, UIActionSheetDelegate {
+class ViewController: UIViewController, FunAVDelegate, UIActionSheetDelegate {
     
     @IBOutlet weak var tableView: UITableView!
-    var cells = [TLACell]()
-    var delegateController: TLAViewController!
+    var cells = [FunAVCell]()
+    var delegateController: FunAVViewController!
     
     
     
@@ -26,50 +26,50 @@ class ViewController: UIViewController, TLADelegate, UIActionSheetDelegate {
         let textColor = UIColor(red: 31.0 / 255.0, green: 217.0 / 255.0, blue: 185.0 / 255.0, alpha: 1.0)
         
         
-        cells.append(TLAHeaderItem(value: "Bathroom" as AnyObject, imageURL: "bathroom_grey_32.png"))
-        cells.append(TLACell(value: "Shower" as AnyObject))
-        cells.append(TLASubItem(value: "Shower pores should be cleaned effectively by brushing." as AnyObject))
-        cells.append(TLACell(value: "Tap" as AnyObject))
-        cells.append(TLASubItem(value: "Taps must be washed with soap and all the salt removed." as AnyObject))
-        cells.append(TLACell(value: "Toilet" as AnyObject, imageURL: "toilet_grey_32.png"))
-        cells.append(TLASubItem(value: "Should be made stains and germs free." as AnyObject))
+        cells.append(FunAVHeaderItem(value: "Bathroom" as AnyObject, imageURL: "bathroom_grey_32.png"))
+        cells.append(FunAVCell(value: "Shower" as AnyObject))
+        cells.append(FunAVSubItem(value: "Shower pores should be cleaned effectively by brushing." as AnyObject))
+        cells.append(FunAVCell(value: "Tap" as AnyObject))
+        cells.append(FunAVSubItem(value: "Taps must be washed with soap and all the salt removed." as AnyObject))
+        cells.append(FunAVCell(value: "Toilet" as AnyObject, imageURL: "toilet_grey_32.png"))
+        cells.append(FunAVSubItem(value: "Should be made stains and germs free." as AnyObject))
 
-        cells.append(TLAHeaderItem(value: "Bedroom" as AnyObject, imageURL: "bedroom_grey_32.png"))
-        cells.append(TLACell(value: "Bed" as AnyObject))
-        cells.append(TLASubItem(value: "Remove all the dust." as AnyObject))
-        cells.append(TLACell(value: "Dressing" as AnyObject))
+        cells.append(FunAVHeaderItem(value: "Bedroom" as AnyObject, imageURL: "bedroom_grey_32.png"))
+        cells.append(FunAVCell(value: "Bed" as AnyObject))
+        cells.append(FunAVSubItem(value: "Remove all the dust." as AnyObject))
+        cells.append(FunAVCell(value: "Dressing" as AnyObject))
 
         
-        cells.append(TLAHeaderItem(value: "Kitchen" as AnyObject, imageURL: "kitchen_grey_32.png"))
-        cells.append(TLACell(value: "Utensils" as AnyObject))
-        cells.append(TLASubItem(value: "There are many type of utensils like tongs, rolling pin, pan, non stick pans. Wash them all." as AnyObject))
-        cells.append(TLACell(value: "Sink" as AnyObject))
-        cells.append(TLASubItem(value: "Clean the sink" as AnyObject))
+        cells.append(FunAVHeaderItem(value: "Kitchen" as AnyObject, imageURL: "kitchen_grey_32.png"))
+        cells.append(FunAVCell(value: "Utensils" as AnyObject))
+        cells.append(FunAVSubItem(value: "There are many type of utensils like tongs, rolling pin, pan, non stick pans. Wash them all." as AnyObject))
+        cells.append(FunAVCell(value: "Sink" as AnyObject))
+        cells.append(FunAVSubItem(value: "Clean the sink" as AnyObject))
         
-        cells.append(TLAHeaderItem(value: "Hallway" as AnyObject, imageURL: "hallway_grey_32.png"))
-        cells.append(TLACell(value: "Stairs" as AnyObject, imageURL: "stairs_grey_32.png"))
-        cells.append(TLASubItem(value: "One stair, two stair, three stair, all stairs clean clean." as AnyObject))
-        cells.append(TLACell(value: "Hall" as AnyObject))
-        cells.append(TLASubItem(value: "Clean the hall" as AnyObject, imageURL: "hall_grey_32.png"))
+        cells.append(FunAVHeaderItem(value: "Hallway" as AnyObject, imageURL: "hallway_grey_32.png"))
+        cells.append(FunAVCell(value: "Stairs" as AnyObject, imageURL: "stairs_grey_32.png"))
+        cells.append(FunAVSubItem(value: "One stair, two stair, three stair, all stairs clean clean." as AnyObject))
+        cells.append(FunAVCell(value: "Hall" as AnyObject))
+        cells.append(FunAVSubItem(value: "Clean the hall" as AnyObject, imageURL: "hall_grey_32.png"))
         
-        cells.append(TLAHeaderItem(value: "Lounge" as AnyObject, imageURL: "lounge_grey_32.png"))
-        cells.append(TLACell(value: "Dining Area" as AnyObject, imageURL: "dining_area_grey_32.png"))
-        cells.append(TLASubItem(value: "All tables and chairs scrubbed for dust and germs." as AnyObject))
-        
-        
-        cells.append(TLAHeaderItem(value: "Study Room" as AnyObject, imageURL: "study_room_grey_32.png"))
-        
-        cells.append(TLAHeaderItem(value: "Conservatory" as AnyObject, imageURL: "conservatory_grey_32.png"))
-        cells.append(TLACell(value: "Utilities" as AnyObject, imageURL: "utility_room_grey_32.png"))
-        cells.append(TLASubItem(value: "Clean! Clean!" as AnyObject))
+        cells.append(FunAVHeaderItem(value: "Lounge" as AnyObject, imageURL: "lounge_grey_32.png"))
+        cells.append(FunAVCell(value: "Dining Area" as AnyObject, imageURL: "dining_area_grey_32.png"))
+        cells.append(FunAVSubItem(value: "All tables and chairs scrubbed for dust and germs." as AnyObject))
         
         
-        cells.append(TLAHeaderItem(value: "Entrance" as AnyObject, imageURL: "entrance_grey_32.png"))
-        cells.append(TLACell(value: "Back Room" as AnyObject, imageURL: "back_room_grey_32.png"))
-        cells.append(TLASubItem(value: "Clean! Clean!" as AnyObject))
+        cells.append(FunAVHeaderItem(value: "Study Room" as AnyObject, imageURL: "study_room_grey_32.png"))
+        
+        cells.append(FunAVHeaderItem(value: "Conservatory" as AnyObject, imageURL: "conservatory_grey_32.png"))
+        cells.append(FunAVCell(value: "Utilities" as AnyObject, imageURL: "utility_room_grey_32.png"))
+        cells.append(FunAVSubItem(value: "Clean! Clean!" as AnyObject))
         
         
-        let options: [TLAOption] = [
+        cells.append(FunAVHeaderItem(value: "Entrance" as AnyObject, imageURL: "entrance_grey_32.png"))
+        cells.append(FunAVCell(value: "Back Room" as AnyObject, imageURL: "back_room_grey_32.png"))
+        cells.append(FunAVSubItem(value: "Clean! Clean!" as AnyObject))
+        
+        
+        let options: [FunAVOption] = [
             .useAccessoryIcons(true),
             .expandIcon(UIImage(named: "MyExpandIcon.png")!),
             .collapseIcon(UIImage(named: "MyCollapseIcon.png")!),
@@ -84,7 +84,7 @@ class ViewController: UIViewController, TLADelegate, UIActionSheetDelegate {
             .itemCellBackgroundColor(UIColor.white),
             ]
         
-        let threeLevelAccordian = ThreeLevelAccordian.init(cells: cells, options: options, reuseIdentifier: "checklistAccordianCell")
+        let threeLevelAccordian = FunAccordionView.init(cells: cells, options: options, reuseIdentifier: "FunAVCell")
         threeLevelAccordian.delegate = self
         delegateController = threeLevelAccordian.controller
         tableView.dataSource = delegateController
@@ -93,7 +93,7 @@ class ViewController: UIViewController, TLADelegate, UIActionSheetDelegate {
     }
     
     func didSelectItemAtIndex(_ index: Int) {
-        if self.cells[index] as? TLASubItem != nil {
+        if self.cells[index] as? FunAVSubItem != nil {
             let alertController = UIAlertController(title: "Clicked", message: "Clicked \(index)", preferredStyle: UIAlertControllerStyle.alert)
             alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.cancel, handler: nil))
             self.present(alertController, animated: true, completion: nil)
