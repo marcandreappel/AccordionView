@@ -17,7 +17,7 @@ public enum FunAVOption {
     case useSingleValues(Bool)
 
     //
-    // Cellule fermée, afficher image d'ouverture
+    // Cellule fermée, affichage d'une image pour l'ouverture
     //
     case expandIcon(UIImage)
 

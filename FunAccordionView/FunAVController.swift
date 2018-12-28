@@ -302,10 +302,21 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
             //
             if let backgroundColor = item.backgroundColor {
                 cell.backgroundColor = backgroundColor
+                //
+                // @TODO: Rendre ceci (selected background) optionnel et personnalisable
+                //
+                let background = UIView(frame: cell.frame)
+                background.backgroundColor = backgroundColor
+                cell.selectedBackgroundView = background
             }
             if let textColor = item.textColor {
                 cell.textLabel?.textColor = textColor
             }
+            //
+            // @TODO: Rendre ceci personnalisable et non-forcé
+            //
+            cell.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: .greatestFiniteMagnitude)
+
             return cell
         }
         return UITableViewCell()
