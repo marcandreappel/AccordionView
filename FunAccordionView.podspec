@@ -11,5 +11,5 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/marcandreappel/FunAccordionView.git", :tag => "#{spec.version}"}
   spec.framework = "UIKit"
   spec.source_files = "FunAccordionView/**/*.{swift}", "FunAccordionView/**/*.{h}"
-  spec.resources = "FunAccordionView/**/*.{png,xib,pdf}"
+  spec.resources = "FunAccordionView/**/*.{png,xib,pdf}", "FunAccordionView/**/*.{xcassets}"
 end
