@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05F43ABF260DDD840A7C8E6A4E69958C /* FunAVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E188509EE32CF8F9185575BA6860B2 /* FunAVCell.swift */; };
-		20D915524A93828EDF5D35F26AAFA204 /* FunAccordionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5827274153F55F09A57A4786FFCBDCD4 /* FunAccordionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D83955F03E5FC5921A4C588EFCD029A /* FunAccordionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7F9CF8664D76B98490CA4A0205069A /* FunAccordionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19C07338886935B41E0670FBA6DFBEBF /* FunAVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA75CFAE05013566141B728416A09892 /* FunAVController.swift */; };
+		1C2A4BBCC29777B89C9FF7A4AED084CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26D285A7CF78C3AE0BE5E5284B53F2 /* Assets.xcassets */; };
 		30A7B5D7269B14182ABD487D82D8CC0E /* Pods-FunAccordionViewExemple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55278205FBE1E1BC7A638BF0FFCCC051 /* Pods-FunAccordionViewExemple-dummy.m */; };
-		49DD5F3B0CD7C5B62CDB1D64B3010D98 /* FunAVCellButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF77FAA0C9BB9FD5780842EFBDCBA1 /* FunAVCellButtonType.swift */; };
-		67917FC56E9365F4D002A896634E31F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		7266B942191B9EFB72FA6D8CE0081EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		79350981F7DDE095645B0BC8336D8D53 /* FunAccordionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46C32F333CDFB1F78A306E6FD1C11F2 /* FunAccordionView.swift */; };
-		7C8D9D83E9A59E55786A2288EB75349B /* FunAVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926534500BCD1792C769B9E66AB159A4 /* FunAVController.swift */; };
-		8A5D3AAA1BDB1CBE03BB5F258092B693 /* FunAccordionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED075B55326913B09E7B19AA3504167 /* FunAccordionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E3232938DDA8BD35642A8508528322 /* FunAVCellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AF241E156C3C24896B66C9A748C74 /* FunAVCellButton.swift */; };
+		4803E798BB44CE0C7792035938E02771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		5562703A546FE6979C29FAD94BD737F7 /* FunAccordionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28066102E4D52FDF1361F65A9DD010E2 /* FunAccordionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58554B489B05C867F3308C8C1D46CFAB /* FunAVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E25057C81866A0FB7C3F2ADDD97544 /* FunAVCell.xib */; };
+		67C19BFCD3675A64C3D59D35761DA0F4 /* FunAVOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90724D5CA5773EFBBFA23156F7D3B1C5 /* FunAVOption.swift */; };
+		A0931C9DF3150EFBE4DD60571A2F6C58 /* FunAVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59FB9787F45D97C50461E9BD05BA59D /* FunAVCell.swift */; };
+		B5FCD9FFC50ECA771E9B289FEDDE65AB /* FunAccordionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E13FA5DC9F6CB947451E19E67D964F1 /* FunAccordionView-dummy.m */; };
+		B8F4A7769CCCA3474E83598B8CD0301F /* FunAVCellButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E71B73D6BC487E84C1F1399C3961E6 /* FunAVCellButtonType.swift */; };
 		BD737501DBE3280B1363685B9E213800 /* Pods-FunAccordionViewExemple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFCA50A2541145924D0EB0860FB1008 /* Pods-FunAccordionViewExemple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C47A0BFDEA6B3EE5801517D015F5354B /* FunAVCellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D4C78E7207E90E68FE991FB618562 /* FunAVCellButton.swift */; };
-		CA52959DEBDCF9DFFC7AA50B8CBCB98D /* FunAccordionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 607771D95FFD4F57429EA540939E021D /* FunAccordionView-dummy.m */; };
+		CCA935BD29F97361D44D572F2AD55E48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
 		D11AA6DE63A91DF58381A6B131A66010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		D95DA5FAC43D798261D74BA5EEB0F43C /* FunAVOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F520F2BDFFA74D6C4D78C39C94FC909 /* FunAVOption.swift */; };
-		FF0A9A625D0CA6BF8F536949B4EC3DA7 /* FunAVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1AAC6F979113C4DD6E5D955EE8ECBD2 /* FunAVCell.xib */; };
+		E2999E3E28BE8DB3B4CC16BA9ECAD159 /* FunAccordionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E66B6CF2E6D880F3351592F880B01B4 /* FunAccordionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,43 +30,44 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6951CBC593FC35DA47661CDC4FB4008C;
+			remoteGlobalIDString = E97E033F2AD73E8AD4DF9364C4A58C14;
 			remoteInfo = FunAccordionView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E13FA5DC9F6CB947451E19E67D964F1 /* FunAccordionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunAccordionView-dummy.m"; sourceTree = "<group>"; };
+		10E25057C81866A0FB7C3F2ADDD97544 /* FunAVCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FunAVCell.xib; path = FunAccordionView/FunAVCell.xib; sourceTree = "<group>"; };
 		1190348AD138F195328252C731A197AD /* Pods-FunAccordionViewExemple-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunAccordionViewExemple-frameworks.sh"; sourceTree = "<group>"; };
-		2F520F2BDFFA74D6C4D78C39C94FC909 /* FunAVOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVOption.swift; path = FunAccordionView/FunAVOption.swift; sourceTree = "<group>"; };
-		428F5AEB4AD8F84A1B9B0666B029AA61 /* FunAccordionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunAccordionView-prefix.pch"; sourceTree = "<group>"; };
+		28066102E4D52FDF1361F65A9DD010E2 /* FunAccordionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunAccordionView-umbrella.h"; sourceTree = "<group>"; };
+		3E66B6CF2E6D880F3351592F880B01B4 /* FunAccordionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAccordionView.swift; path = FunAccordionView/FunAccordionView.swift; sourceTree = "<group>"; };
+		418A9CF4D4B3DF2A58E7730F39BC2244 /* FunAccordionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunAccordionView-prefix.pch"; sourceTree = "<group>"; };
+		446AF241E156C3C24896B66C9A748C74 /* FunAVCellButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVCellButton.swift; path = FunAccordionView/FunAVCellButton.swift; sourceTree = "<group>"; };
 		55278205FBE1E1BC7A638BF0FFCCC051 /* Pods-FunAccordionViewExemple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunAccordionViewExemple-dummy.m"; sourceTree = "<group>"; };
-		5827274153F55F09A57A4786FFCBDCD4 /* FunAccordionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FunAccordionView.h; path = FunAccordionView/FunAccordionView.h; sourceTree = "<group>"; };
-		5ED075B55326913B09E7B19AA3504167 /* FunAccordionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunAccordionView-umbrella.h"; sourceTree = "<group>"; };
-		607771D95FFD4F57429EA540939E021D /* FunAccordionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunAccordionView-dummy.m"; sourceTree = "<group>"; };
-		6CAF77FAA0C9BB9FD5780842EFBDCBA1 /* FunAVCellButtonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVCellButtonType.swift; path = FunAccordionView/FunAVCellButtonType.swift; sourceTree = "<group>"; };
-		700738B617AC2CBC07E42E71EA948F9B /* FunAccordionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FunAccordionView.modulemap; sourceTree = "<group>"; };
+		592049FE0A6E20BB61600486A0E2FE15 /* FunAccordionView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FunAccordionView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5A7F9CF8664D76B98490CA4A0205069A /* FunAccordionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FunAccordionView.h; path = FunAccordionView/FunAccordionView.h; sourceTree = "<group>"; };
 		8F2C3F0C2F7B3BB0FB510D769CEC1FA6 /* Pods-FunAccordionViewExemple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FunAccordionViewExemple.modulemap"; sourceTree = "<group>"; };
+		90724D5CA5773EFBBFA23156F7D3B1C5 /* FunAVOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVOption.swift; path = FunAccordionView/FunAVOption.swift; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		926534500BCD1792C769B9E66AB159A4 /* FunAVController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVController.swift; path = FunAccordionView/FunAVController.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96743FB0D172B0AAE51A024D37DB4D1D /* FunAccordionView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FunAccordionView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97F18F7C68DA63C66D77E6E7A3889462 /* Pods-FunAccordionViewExemple-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunAccordionViewExemple-resources.sh"; sourceTree = "<group>"; };
-		9B8CD68D30EEF8310576BFBD07AB0B32 /* FunAccordionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunAccordionView.xcconfig; sourceTree = "<group>"; };
 		9F583C41C44E25FE650B7D9EAEF29285 /* Pods-FunAccordionViewExemple-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunAccordionViewExemple-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A46C32F333CDFB1F78A306E6FD1C11F2 /* FunAccordionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAccordionView.swift; path = FunAccordionView/FunAccordionView.swift; sourceTree = "<group>"; };
-		A6E188509EE32CF8F9185575BA6860B2 /* FunAVCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVCell.swift; path = FunAccordionView/FunAVCell.swift; sourceTree = "<group>"; };
 		ACFCA50A2541145924D0EB0860FB1008 /* Pods-FunAccordionViewExemple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunAccordionViewExemple-umbrella.h"; sourceTree = "<group>"; };
 		AD78B45087439D6D212FF0DBA3B136CE /* Pods-FunAccordionViewExemple-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunAccordionViewExemple-acknowledgements.plist"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C2EFA2C8218E637AF2529A2203A20605 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E71B73D6BC487E84C1F1399C3961E6 /* FunAVCellButtonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVCellButtonType.swift; path = FunAccordionView/FunAVCellButtonType.swift; sourceTree = "<group>"; };
 		C42937F8C3836CC5CFA5D23D9A3F4F6E /* FunAccordionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunAccordionView.framework; path = FunAccordionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59FB9787F45D97C50461E9BD05BA59D /* FunAVCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVCell.swift; path = FunAccordionView/FunAVCell.swift; sourceTree = "<group>"; };
+		CE2892E4B72D30525E71032EAB2C72CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CE341F3BFBE33D55A0A19B74F7EADF02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D11B4C5AE5B9A7B7C02AE051A5B54DDD /* Pods-FunAccordionViewExemple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunAccordionViewExemple.debug.xcconfig"; sourceTree = "<group>"; };
-		D1AAC6F979113C4DD6E5D955EE8ECBD2 /* FunAVCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FunAVCell.xib; path = FunAccordionView/FunAVCell.xib; sourceTree = "<group>"; };
+		D392161CDB525E97A8740DFFC871E31D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA0B7334BCC83299711BF148C0BAF7E /* FunAccordionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunAccordionView.xcconfig; sourceTree = "<group>"; };
+		DFE8632750E7956081B2641C031C3093 /* FunAccordionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FunAccordionView.modulemap; sourceTree = "<group>"; };
+		EA75CFAE05013566141B728416A09892 /* FunAVController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVController.swift; path = FunAccordionView/FunAVController.swift; sourceTree = "<group>"; };
 		EB827E1078AE6711DA53C632B5FB2A1D /* Pods_FunAccordionViewExemple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunAccordionViewExemple.framework; path = "Pods-FunAccordionViewExemple.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C52D38628605B6907B8BEE52B16009 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D68536F53B688A110D78E9D13B3A8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F7852AEB07E157C570B0DF3F57F50271 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F94D4C78E7207E90E68FE991FB618562 /* FunAVCellButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVCellButton.swift; path = FunAccordionView/FunAVCellButton.swift; sourceTree = "<group>"; };
+		FA26D285A7CF78C3AE0BE5E5284B53F2 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FunAccordionView/Assets.xcassets; sourceTree = "<group>"; };
 		FF30C8702E78DBF6BD9BBE2BCE6E34FC /* Pods-FunAccordionViewExemple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunAccordionViewExemple.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,12 +80,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E1BD5A03EA46A5DEEDD0F4B846CF58 /* Frameworks */ = {
+		676B8858069BC6E3225761306F9C307C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7266B942191B9EFB72FA6D8CE0081EC5 /* Foundation.framework in Frameworks */,
-				67917FC56E9365F4D002A896634E31F8 /* UIKit.framework in Frameworks */,
+				4803E798BB44CE0C7792035938E02771 /* Foundation.framework in Frameworks */,
+				CCA935BD29F97361D44D572F2AD55E48 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,14 +101,46 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		2D48127D4DF9C105251544CCB0D93014 /* Pod */ = {
+		1C56BD05B2FA6462389BCBB241608687 /* FunAccordionView */ = {
 			isa = PBXGroup;
 			children = (
-				96743FB0D172B0AAE51A024D37DB4D1D /* FunAccordionView.podspec */,
-				F7852AEB07E157C570B0DF3F57F50271 /* LICENSE */,
-				F3D68536F53B688A110D78E9D13B3A8A /* README.md */,
+				5A7F9CF8664D76B98490CA4A0205069A /* FunAccordionView.h */,
+				3E66B6CF2E6D880F3351592F880B01B4 /* FunAccordionView.swift */,
+				C59FB9787F45D97C50461E9BD05BA59D /* FunAVCell.swift */,
+				446AF241E156C3C24896B66C9A748C74 /* FunAVCellButton.swift */,
+				C1E71B73D6BC487E84C1F1399C3961E6 /* FunAVCellButtonType.swift */,
+				EA75CFAE05013566141B728416A09892 /* FunAVController.swift */,
+				90724D5CA5773EFBBFA23156F7D3B1C5 /* FunAVOption.swift */,
+				210B62627FEF95F835AD77C5FDDE1D54 /* Pod */,
+				EC8FE1784A2C6724936DF6CF4DF8C84B /* Resources */,
+				351A80790F75EDC24BA108FA9B8A9BF7 /* Support Files */,
+			);
+			name = FunAccordionView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		210B62627FEF95F835AD77C5FDDE1D54 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				592049FE0A6E20BB61600486A0E2FE15 /* FunAccordionView.podspec */,
+				CE341F3BFBE33D55A0A19B74F7EADF02 /* LICENSE */,
+				CE2892E4B72D30525E71032EAB2C72CA /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		351A80790F75EDC24BA108FA9B8A9BF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE8632750E7956081B2641C031C3093 /* FunAccordionView.modulemap */,
+				DBA0B7334BCC83299711BF148C0BAF7E /* FunAccordionView.xcconfig */,
+				0E13FA5DC9F6CB947451E19E67D964F1 /* FunAccordionView-dummy.m */,
+				418A9CF4D4B3DF2A58E7730F39BC2244 /* FunAccordionView-prefix.pch */,
+				28066102E4D52FDF1361F65A9DD010E2 /* FunAccordionView-umbrella.h */,
+				D392161CDB525E97A8740DFFC871E31D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "FunAccrodionViewExemple/Pods/Target Support Files/FunAccordionView";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -117,32 +151,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5364BFE04463A88CB1113B95C9B308B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				700738B617AC2CBC07E42E71EA948F9B /* FunAccordionView.modulemap */,
-				9B8CD68D30EEF8310576BFBD07AB0B32 /* FunAccordionView.xcconfig */,
-				607771D95FFD4F57429EA540939E021D /* FunAccordionView-dummy.m */,
-				428F5AEB4AD8F84A1B9B0666B029AA61 /* FunAccordionView-prefix.pch */,
-				5ED075B55326913B09E7B19AA3504167 /* FunAccordionView-umbrella.h */,
-				C2EFA2C8218E637AF2529A2203A20605 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "FunAccrodionViewExemple/Pods/Target Support Files/FunAccordionView";
-			sourceTree = "<group>";
-		};
-		574F81772354CD7141DD0F4143C75CBA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D1AAC6F979113C4DD6E5D955EE8ECBD2 /* FunAVCell.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		79EE8F3FE32AC34D7B5C984D12DC8C32 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FE6A8145674B402940FD95D8B8266C71 /* FunAccordionView */,
+				1C56BD05B2FA6462389BCBB241608687 /* FunAccordionView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -193,33 +205,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE6A8145674B402940FD95D8B8266C71 /* FunAccordionView */ = {
+		EC8FE1784A2C6724936DF6CF4DF8C84B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5827274153F55F09A57A4786FFCBDCD4 /* FunAccordionView.h */,
-				A46C32F333CDFB1F78A306E6FD1C11F2 /* FunAccordionView.swift */,
-				A6E188509EE32CF8F9185575BA6860B2 /* FunAVCell.swift */,
-				F94D4C78E7207E90E68FE991FB618562 /* FunAVCellButton.swift */,
-				6CAF77FAA0C9BB9FD5780842EFBDCBA1 /* FunAVCellButtonType.swift */,
-				926534500BCD1792C769B9E66AB159A4 /* FunAVController.swift */,
-				2F520F2BDFFA74D6C4D78C39C94FC909 /* FunAVOption.swift */,
-				2D48127D4DF9C105251544CCB0D93014 /* Pod */,
-				574F81772354CD7141DD0F4143C75CBA /* Resources */,
-				5364BFE04463A88CB1113B95C9B308B0 /* Support Files */,
+				FA26D285A7CF78C3AE0BE5E5284B53F2 /* Assets.xcassets */,
+				10E25057C81866A0FB7C3F2ADDD97544 /* FunAVCell.xib */,
 			);
-			name = FunAccordionView;
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6A2AEE560C90130500E8F4F9F8A7DEE9 /* Headers */ = {
+		B280085D25457FD3D49BCB259CE2EE98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A5D3AAA1BDB1CBE03BB5F258092B693 /* FunAccordionView-umbrella.h in Headers */,
-				20D915524A93828EDF5D35F26AAFA204 /* FunAccordionView.h in Headers */,
+				5562703A546FE6979C29FAD94BD737F7 /* FunAccordionView-umbrella.h in Headers */,
+				0D83955F03E5FC5921A4C588EFCD029A /* FunAccordionView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,24 +237,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6951CBC593FC35DA47661CDC4FB4008C /* FunAccordionView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F2EB0CC56D14AC937664DD588650525A /* Build configuration list for PBXNativeTarget "FunAccordionView" */;
-			buildPhases = (
-				42A7F1A7706D7A2A049568962E6E62CA /* Sources */,
-				A6E1BD5A03EA46A5DEEDD0F4B846CF58 /* Frameworks */,
-				6A2AEE560C90130500E8F4F9F8A7DEE9 /* Headers */,
-				C61C2D39A4E089A77DAF22D71201BFE0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FunAccordionView;
-			productName = FunAccordionView;
-			productReference = C42937F8C3836CC5CFA5D23D9A3F4F6E /* FunAccordionView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		92D02E135D464906CFE59A959F1F1640 /* Pods-FunAccordionViewExemple */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FC097DE9B18AE8293D7BF8286F679F5 /* Build configuration list for PBXNativeTarget "Pods-FunAccordionViewExemple" */;
@@ -268,6 +253,24 @@
 			name = "Pods-FunAccordionViewExemple";
 			productName = "Pods-FunAccordionViewExemple";
 			productReference = EB827E1078AE6711DA53C632B5FB2A1D /* Pods_FunAccordionViewExemple.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E97E033F2AD73E8AD4DF9364C4A58C14 /* FunAccordionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC73A453F875EE499AE6442F197B6345 /* Build configuration list for PBXNativeTarget "FunAccordionView" */;
+			buildPhases = (
+				8E708155257F2F00AEDB8ADA9BAEE88F /* Sources */,
+				676B8858069BC6E3225761306F9C307C /* Frameworks */,
+				B280085D25457FD3D49BCB259CE2EE98 /* Headers */,
+				C1B29FD7E60E284671E9F3575EB8609C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunAccordionView;
+			productName = FunAccordionView;
+			productReference = C42937F8C3836CC5CFA5D23D9A3F4F6E /* FunAccordionView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -291,18 +294,19 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6951CBC593FC35DA47661CDC4FB4008C /* FunAccordionView */,
+				E97E033F2AD73E8AD4DF9364C4A58C14 /* FunAccordionView */,
 				92D02E135D464906CFE59A959F1F1640 /* Pods-FunAccordionViewExemple */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C61C2D39A4E089A77DAF22D71201BFE0 /* Resources */ = {
+		C1B29FD7E60E284671E9F3575EB8609C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0A9A625D0CA6BF8F536949B4EC3DA7 /* FunAVCell.xib in Resources */,
+				1C2A4BBCC29777B89C9FF7A4AED084CA /* Assets.xcassets in Resources */,
+				58554B489B05C867F3308C8C1D46CFAB /* FunAVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,17 +321,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42A7F1A7706D7A2A049568962E6E62CA /* Sources */ = {
+		8E708155257F2F00AEDB8ADA9BAEE88F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA52959DEBDCF9DFFC7AA50B8CBCB98D /* FunAccordionView-dummy.m in Sources */,
-				79350981F7DDE095645B0BC8336D8D53 /* FunAccordionView.swift in Sources */,
-				05F43ABF260DDD840A7C8E6A4E69958C /* FunAVCell.swift in Sources */,
-				C47A0BFDEA6B3EE5801517D015F5354B /* FunAVCellButton.swift in Sources */,
-				49DD5F3B0CD7C5B62CDB1D64B3010D98 /* FunAVCellButtonType.swift in Sources */,
-				7C8D9D83E9A59E55786A2288EB75349B /* FunAVController.swift in Sources */,
-				D95DA5FAC43D798261D74BA5EEB0F43C /* FunAVOption.swift in Sources */,
+				B5FCD9FFC50ECA771E9B289FEDDE65AB /* FunAccordionView-dummy.m in Sources */,
+				E2999E3E28BE8DB3B4CC16BA9ECAD159 /* FunAccordionView.swift in Sources */,
+				A0931C9DF3150EFBE4DD60571A2F6C58 /* FunAVCell.swift in Sources */,
+				47E3232938DDA8BD35642A8508528322 /* FunAVCellButton.swift in Sources */,
+				B8F4A7769CCCA3474E83598B8CD0301F /* FunAVCellButtonType.swift in Sources */,
+				19C07338886935B41E0670FBA6DFBEBF /* FunAVController.swift in Sources */,
+				67C19BFCD3675A64C3D59D35761DA0F4 /* FunAVOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +341,7 @@
 		C3CEE55CCF7D83E1F01FC8AD030DBFF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FunAccordionView;
-			target = 6951CBC593FC35DA47661CDC4FB4008C /* FunAccordionView */;
+			target = E97E033F2AD73E8AD4DF9364C4A58C14 /* FunAccordionView */;
 			targetProxy = 195DBC5596A147070E742D36C8D28CE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,9 +405,9 @@
 			};
 			name = Release;
 		};
-		7D93A8362AD276624B5974D4BA91A9AC /* Release */ = {
+		2DBC1945F614B6FC1FA835652B975568 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B8CD68D30EEF8310576BFBD07AB0B32 /* FunAccordionView.xcconfig */;
+			baseConfigurationReference = DBA0B7334BCC83299711BF148C0BAF7E /* FunAccordionView.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -430,14 +434,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -502,9 +505,9 @@
 			};
 			name = Debug;
 		};
-		C3999B4E798BD755B0979B77946FFBAA /* Debug */ = {
+		E1B1221E638BBF657FEB5B005348C7C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B8CD68D30EEF8310576BFBD07AB0B32 /* FunAccordionView.xcconfig */;
+			baseConfigurationReference = DBA0B7334BCC83299711BF148C0BAF7E /* FunAccordionView.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -531,13 +534,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		E2321EDA9158AA7CA419D9E02EEA6E4E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -640,11 +644,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2EB0CC56D14AC937664DD588650525A /* Build configuration list for PBXNativeTarget "FunAccordionView" */ = {
+		BC73A453F875EE499AE6442F197B6345 /* Build configuration list for PBXNativeTarget "FunAccordionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3999B4E798BD755B0979B77946FFBAA /* Debug */,
-				7D93A8362AD276624B5974D4BA91A9AC /* Release */,
+				2DBC1945F614B6FC1FA835652B975568 /* Debug */,
+				E1B1221E638BBF657FEB5B005348C7C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
