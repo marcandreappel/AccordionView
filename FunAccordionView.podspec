@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.name = "FunAccordionView"
   spec.summary = "FunAccordionView provides a three level accordion view (forked of ThreeLevelAccordian)."
   spec.requires_arc = true
-  spec.version = "1.1.0"
+  spec.version = "1.2.0"
   spec.license = { :type => "MIT", :file => "LICENSE" }
   spec.author = { "Marc-André Appel" => "marc-andre@appel.fun" }
   spec.homepage = "https://github.com/marcandreappel/FunAccordionView"
