@@ -302,6 +302,12 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
             //
             if let backgroundColor = item.backgroundColor {
                 cell.backgroundColor = backgroundColor
+                //
+                // @TODO: Rendre ceci (selected background) optionnel et personnalisable
+                //
+                let background = UIView(frame: cell.frame)
+                background.backgroundColor = backgroundColor
+                cell.selectedBackgroundView = background
             }
             if let textColor = item.textColor {
                 cell.textLabel?.textColor = textColor
