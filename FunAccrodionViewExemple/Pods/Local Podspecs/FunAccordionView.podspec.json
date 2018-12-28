@@ -23,5 +23,8 @@
     "FunAccordionView/**/*.{swift}",
     "FunAccordionView/**/*.{h}"
   ],
-  "resources": "FunAccordionView/**/*.{png,xib,pdf}"
+  "resources": [
+    "FunAccordionView/**/*.{png,xib,pdf}",
+    "FunAccordionView/**/*.{xcassets}"
+  ]
 }

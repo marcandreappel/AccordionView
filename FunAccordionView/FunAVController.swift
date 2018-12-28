@@ -195,7 +195,7 @@ open class FunAVController: UIViewController {
                     if !(self.cells[headerIdx] is FunAVSubItem) {
                         self.cells[headerIdx].isHidden = isHidden
                         if (isHidden) {
-                            toggleVisible(headerIdx - 1, isHidden: isHidden)
+                            toggleVisible(headerIdx, isHidden: isHidden)
                         }
                     }
                     headerIdx = headerIdx + 1
