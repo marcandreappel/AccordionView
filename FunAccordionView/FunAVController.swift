@@ -201,9 +201,7 @@ open class FunAVController: UIViewController {
                     headerIdx = headerIdx + 1
                 }
             } else {
-                headerIdx = headerIdx + 1
-
-                if (self.cells[headerIdx] is FunAVSubItem) {
+                if (self.cells[headerIdx] is FunAVSubCell) {
                     self.cells[headerIdx].isHidden = isHidden
                 }
             }
