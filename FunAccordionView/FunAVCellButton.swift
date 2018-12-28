@@ -28,9 +28,9 @@ class FunAVCellButton: UIButton {
         let bundle = Bundle(for: Swift.type(of: self))
         switch(type) {
         case .expand :
-            return UIImage(named: "forward_arrow", in: bundle, compatibleWith: nil)
+            return UIImage(named: "chevron_right", in: bundle, compatibleWith: nil)
         case .collapse:
-            return UIImage(named: "expand_arrow", in: bundle, compatibleWith: nil)
+            return UIImage(named: "chevron_down", in: bundle, compatibleWith: nil)
         }
     }
 }
