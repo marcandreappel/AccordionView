@@ -306,6 +306,11 @@ extension FunAVController: UITableViewDelegate, UITableViewDataSource {
             if let textColor = item.textColor {
                 cell.textLabel?.textColor = textColor
             }
+            //
+            // @TODO: Rendre ceci personnalisable et non-forcé
+            //
+            cell.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: .greatestFiniteMagnitude)
+
             return cell
         }
         return UITableViewCell()
