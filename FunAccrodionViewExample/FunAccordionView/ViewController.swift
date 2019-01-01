@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  FunAccordionViewExemple
+//  FunAccordionViewExample
 //
 //  Created by Marc-André Appel on 28/12/2018.
 //  Copyright (c) 2018 Marc-André Appel. All rights reserved.

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_FunAccordionViewExempleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_FunAccordionViewExempleVersionString[];
+FOUNDATION_EXPORT double Pods_FunAccordionViewExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_FunAccordionViewExampleVersionString[];
 

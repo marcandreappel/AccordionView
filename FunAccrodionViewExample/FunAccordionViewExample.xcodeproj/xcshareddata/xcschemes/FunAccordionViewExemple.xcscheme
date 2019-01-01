@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72D6B3FB21D60A2200EA7478"
-               BuildableName = "FunAccordionViewExemple.app"
-               BlueprintName = "FunAccordionViewExemple"
-               ReferencedContainer = "container:FunAccordionViewExemple.xcodeproj">
+               BuildableName = "FunAccordionViewExample.app"
+               BlueprintName = "FunAccordionViewExample"
+               ReferencedContainer = "container:FunAccordionViewExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72D6B3FB21D60A2200EA7478"
-            BuildableName = "FunAccordionViewExemple.app"
-            BlueprintName = "FunAccordionViewExemple"
-            ReferencedContainer = "container:FunAccordionViewExemple.xcodeproj">
+            BuildableName = "FunAccordionViewExample.app"
+            BlueprintName = "FunAccordionViewExample"
+            ReferencedContainer = "container:FunAccordionViewExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72D6B3FB21D60A2200EA7478"
-            BuildableName = "FunAccordionViewExemple.app"
-            BlueprintName = "FunAccordionViewExemple"
-            ReferencedContainer = "container:FunAccordionViewExemple.xcodeproj">
+            BuildableName = "FunAccordionViewExample.app"
+            BlueprintName = "FunAccordionViewExample"
+            ReferencedContainer = "container:FunAccordionViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72D6B3FB21D60A2200EA7478"
-            BuildableName = "FunAccordionViewExemple.app"
-            BlueprintName = "FunAccordionViewExemple"
-            ReferencedContainer = "container:FunAccordionViewExemple.xcodeproj">
+            BuildableName = "FunAccordionViewExample.app"
+            BlueprintName = "FunAccordionViewExample"
+            ReferencedContainer = "container:FunAccordionViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
