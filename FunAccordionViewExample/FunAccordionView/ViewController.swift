@@ -20,8 +20,8 @@ class ViewController: UIViewController, FunAVDelegate, UIActionSheetDelegate {
         super.viewDidLoad()
         self.title = "Checklist"
 
-        fileprivate let backgroundColor = UIColor(red: 237.0 / 255.0, green: 254.0 / 255.0, blue: 249.0 / 255.0, alpha: 1.0)
-        fileprivate let textColor = UIColor(red: 31.0 / 255.0, green: 217.0 / 255.0, blue: 185.0 / 255.0, alpha: 1.0)
+        let backgroundColor = UIColor(red: 237.0 / 255.0, green: 254.0 / 255.0, blue: 249.0 / 255.0, alpha: 1.0)
+        let textColor = UIColor(red: 31.0 / 255.0, green: 217.0 / 255.0, blue: 185.0 / 255.0, alpha: 1.0)
 
         cells.append(FunAVHeaderCell(value: "Bathroom" as AnyObject, imageURL: "bathroom_grey_32.png", backgroundColor: UIColor.orange, textColor: UIColor.white))
         cells.append(FunAVCell(value: "Shower" as AnyObject))
@@ -62,7 +62,7 @@ class ViewController: UIViewController, FunAVDelegate, UIActionSheetDelegate {
         cells.append(FunAVCell(value: "Back Room" as AnyObject, imageURL: "back_room_grey_32.png"))
         cells.append(FunAVSubCell(value: "Clean! Clean!" as AnyObject))
 
-        fileprivate let options: [FunAVOption] = [
+        let options: [FunAVOption] = [
             .useAccessoryIcons(true),
             .expandIcon(UIImage(named: "MyExpandIcon.png")!),
             .collapseIcon(UIImage(named: "MyCollapseIcon.png")!),
@@ -77,7 +77,7 @@ class ViewController: UIViewController, FunAVDelegate, UIActionSheetDelegate {
             .itemCellBackgroundColor(UIColor.white),
         ]
 
-        fileprivate let funAccordionView = FunAccordionView.init(cells: cells, options: options, reuseIdentifier: "FunAVCell")
+        let funAccordionView = FunAccordionView.init(cells: cells, options: options, reuseIdentifier: "FunAVCell")
         funAccordionView.delegate = self
 
         delegateController = funAccordionView.controller
