@@ -106,7 +106,7 @@
 			dependencies = (
 			);
 			name = FunAccordionViewExample;
-			productName = FunAccrodionView;
+			productName = FunAccordionView;
 			productReference = 72D6B3FC21D60A2200EA7478 /* FunAccordionViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};

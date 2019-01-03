@@ -1,0 +1,16 @@
+PODS:
+  - FunAccordionView (1.2.0)
+
+DEPENDENCIES:
+  - FunAccordionView (from `..`)
+
+EXTERNAL SOURCES:
+  FunAccordionView:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  FunAccordionView: 6da6ed314319f73dd3485e6bcf349223066dcf7d
+
+PODFILE CHECKSUM: 8fa0a9b544f41c77f1ee674a037e80e6cfe791e4
+
+COCOAPODS: 1.5.2
