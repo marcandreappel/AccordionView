@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1992A14E2B47A4A87C8BB0594FB7D734 /* FunAVCellButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB604AD097C8730D489A64C596C88F /* FunAVCellButtonType.swift */; };
-		306A2968F57B4BA746E01DADA56B34AA /* FunAccordionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 234EB110C3B8516974D0C7FA9004F84B /* FunAccordionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38355ECF88A6537B8444B4D90FA68125 /* FunAVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40242E6BC57F460B4005C998080A5054 /* FunAVCell.swift */; };
-		4468C9EBCCAED847B3E9BCC8488E57A3 /* FunAccordionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 360A551F31C79CA770B4CB9DB0B3A2CB /* FunAccordionView-dummy.m */; };
-		48CE90F4FC82B95A44B2087F02137E34 /* FunAccordionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9928DD361CC908541AB45AB66B4F6D /* FunAccordionView.swift */; };
-		5EB65C7816493746DF09A245ECAD1281 /* Pods-FunAccordionViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FBF53E6BBAD2E045B24DB507AB66BD /* Pods-FunAccordionViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69682CE97688818F9574E80F4AE9439D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		6C2C5F771E4655DBC46942EA7596CE0A /* FunAVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0267043CC2F02DEF66805441401BAD61 /* FunAVCell.xib */; };
-		84C82A536E261CDEE3F082064A4D7350 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
-		93D9B6381B76FCF8DCB6763276D275E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		AC49456CA36CC492B0544BC79705B877 /* FunAVOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABF62CFB5EE079E832A2992BE8578B /* FunAVOption.swift */; };
-		BD2E88C36630C5E806116081CCF1388A /* FunAVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F9E4603DA18BBC8A4BF2738B8BE84 /* FunAVController.swift */; };
-		BF8493DA977F64F5D9AA2E62BD984B90 /* FunAccordionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33798325F89DEB455EA1697A4DC620A0 /* FunAccordionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C75D3798D2CCFED699054AD421D853DC /* FunAVCellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF4992C062E41DC273E1FEC74493B1 /* FunAVCellButton.swift */; };
-		D5DEC093353C1798C8B671F4D0559B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6067749AC1467C6A41B0047BBA238DA /* Assets.xcassets */; };
-		FFF323C8238B7B865328306395A7458D /* Pods-FunAccordionViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D1B73F46ABCA28A59AD1EA6B12367 /* Pods-FunAccordionViewExample-dummy.m */; };
+		0D83955F03E5FC5921A4C588EFCD029A /* FunAccordionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 234EB110C3B8516974D0C7FA9004F84B /* FunAccordionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19C07338886935B41E0670FBA6DFBEBF /* FunAVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F9E4603DA18BBC8A4BF2738B8BE84 /* FunAVController.swift */; };
+		1C2A4BBCC29777B89C9FF7A4AED084CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6067749AC1467C6A41B0047BBA238DA /* Assets.xcassets */; };
+		223426DA54399760DB53F8F50CC86E4E /* Pods-FunAccordionViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FBF53E6BBAD2E045B24DB507AB66BD /* Pods-FunAccordionViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E3232938DDA8BD35642A8508528322 /* FunAVCellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF4992C062E41DC273E1FEC74493B1 /* FunAVCellButton.swift */; };
+		4803E798BB44CE0C7792035938E02771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		5562703A546FE6979C29FAD94BD737F7 /* FunAccordionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33798325F89DEB455EA1697A4DC620A0 /* FunAccordionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58554B489B05C867F3308C8C1D46CFAB /* FunAVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0267043CC2F02DEF66805441401BAD61 /* FunAVCell.xib */; };
+		66C5F81CF95C22FCBCDDB5A6CE3EC698 /* Pods-FunAccordionViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D1B73F46ABCA28A59AD1EA6B12367 /* Pods-FunAccordionViewExample-dummy.m */; };
+		67C19BFCD3675A64C3D59D35761DA0F4 /* FunAVOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABF62CFB5EE079E832A2992BE8578B /* FunAVOption.swift */; };
+		733136360DF36C47232CCF2E5E819142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		A0931C9DF3150EFBE4DD60571A2F6C58 /* FunAVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40242E6BC57F460B4005C998080A5054 /* FunAVCell.swift */; };
+		B5FCD9FFC50ECA771E9B289FEDDE65AB /* FunAccordionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 360A551F31C79CA770B4CB9DB0B3A2CB /* FunAccordionView-dummy.m */; };
+		B8F4A7769CCCA3474E83598B8CD0301F /* FunAVCellButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB604AD097C8730D489A64C596C88F /* FunAVCellButtonType.swift */; };
+		CCA935BD29F97361D44D572F2AD55E48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		E2999E3E28BE8DB3B4CC16BA9ECAD159 /* FunAccordionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9928DD361CC908541AB45AB66B4F6D /* FunAccordionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C5422C6233B1D271CE40AFF6A7DAB8FB /* PBXContainerItemProxy */ = {
+		C60C39525DC0971440DF7F68D271B5C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3FE9795A28BD145E56E5F03E4C256FC6;
+			remoteGlobalIDString = E97E033F2AD73E8AD4DF9364C4A58C14;
 			remoteInfo = FunAccordionView;
 		};
 /* End PBXContainerItemProxy section */
@@ -39,19 +39,18 @@
 		0267043CC2F02DEF66805441401BAD61 /* FunAVCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FunAVCell.xib; path = FunAccordionView/FunAVCell.xib; sourceTree = "<group>"; };
 		15B039FD4B4D545AB558AA66644E45C0 /* Pods-FunAccordionViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunAccordionViewExample-frameworks.sh"; sourceTree = "<group>"; };
 		234EB110C3B8516974D0C7FA9004F84B /* FunAccordionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FunAccordionView.h; path = FunAccordionView/FunAccordionView.h; sourceTree = "<group>"; };
-		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		31AC6D611026476CF830E43FED3E5A87 /* FunAccordionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FunAccordionView.modulemap; sourceTree = "<group>"; };
 		33798325F89DEB455EA1697A4DC620A0 /* FunAccordionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunAccordionView-umbrella.h"; sourceTree = "<group>"; };
 		3502E02CC01DB5543976F313AF757698 /* FunAccordionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunAccordionView.framework; path = FunAccordionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		360A551F31C79CA770B4CB9DB0B3A2CB /* FunAccordionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunAccordionView-dummy.m"; sourceTree = "<group>"; };
 		40242E6BC57F460B4005C998080A5054 /* FunAVCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVCell.swift; path = FunAccordionView/FunAVCell.swift; sourceTree = "<group>"; };
 		4ABB604AD097C8730D489A64C596C88F /* FunAVCellButtonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVCellButtonType.swift; path = FunAccordionView/FunAVCellButtonType.swift; sourceTree = "<group>"; };
-		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		75FBF53E6BBAD2E045B24DB507AB66BD /* Pods-FunAccordionViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunAccordionViewExample-umbrella.h"; sourceTree = "<group>"; };
 		76D1393542DF9748B3301DC744B1C53D /* Pods-FunAccordionViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunAccordionViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 		862F9E4603DA18BBC8A4BF2738B8BE84 /* FunAVController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAVController.swift; path = FunAccordionView/FunAVController.swift; sourceTree = "<group>"; };
 		8A0D1B73F46ABCA28A59AD1EA6B12367 /* Pods-FunAccordionViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunAccordionViewExample-dummy.m"; sourceTree = "<group>"; };
 		8C07F199259E4B555AF500F8720461E3 /* Pods-FunAccordionViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunAccordionViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		933F1B076E7A52A44AFE3F04157C9AEF /* Pods-FunAccordionViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FunAccordionViewExample.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E93489C01195A6154DC7D3319BD4F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		B6067749AC1467C6A41B0047BBA238DA /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FunAccordionView/Assets.xcassets; sourceTree = "<group>"; };
 		B901F87827EDD773130C4E327269A3F2 /* FunAccordionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunAccordionView.xcconfig; sourceTree = "<group>"; };
 		B9BA816E84B6E1A1E9FB24D8B8EC48B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C8659817275FEA2272548D66052F4844 /* Pods_FunAccordionViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunAccordionViewExample.framework; path = "Pods-FunAccordionViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9928DD361CC908541AB45AB66B4F6D /* FunAccordionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunAccordionView.swift; path = FunAccordionView/FunAccordionView.swift; sourceTree = "<group>"; };
 		E6BF6509A3C7320B0353D68E9E41F8D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,35 +72,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A4A276CD9C86541129740D3E4EBB359 /* Frameworks */ = {
+		676B8858069BC6E3225761306F9C307C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69682CE97688818F9574E80F4AE9439D /* Foundation.framework in Frameworks */,
+				4803E798BB44CE0C7792035938E02771 /* Foundation.framework in Frameworks */,
+				CCA935BD29F97361D44D572F2AD55E48 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B7B6517F1837705568087E7E3A8E777 /* Frameworks */ = {
+		C999E1B4A4B4760EF4309EA838443E81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D9B6381B76FCF8DCB6763276D275E7 /* Foundation.framework in Frameworks */,
-				84C82A536E261CDEE3F082064A4D7350 /* UIKit.framework in Frameworks */,
+				733136360DF36C47232CCF2E5E819142 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
-				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		08A838B5FD777F3EE8066FF9D6AC15F0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +100,15 @@
 				93E93489C01195A6154DC7D3319BD4F0 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		11268D9A3C46FFD874EB62C3254DDB38 /* FunAccordionView */ = {
@@ -150,7 +150,7 @@
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,53 +217,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		311988EDF77F40EF60B96F2724983C03 /* Headers */ = {
+		7A1FA48A78513E84906D28BC25985662 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8493DA977F64F5D9AA2E62BD984B90 /* FunAccordionView-umbrella.h in Headers */,
-				306A2968F57B4BA746E01DADA56B34AA /* FunAccordionView.h in Headers */,
+				223426DA54399760DB53F8F50CC86E4E /* Pods-FunAccordionViewExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E414B5FAFD777E1E42AA4F0740ECD6A8 /* Headers */ = {
+		B280085D25457FD3D49BCB259CE2EE98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB65C7816493746DF09A245ECAD1281 /* Pods-FunAccordionViewExample-umbrella.h in Headers */,
+				5562703A546FE6979C29FAD94BD737F7 /* FunAccordionView-umbrella.h in Headers */,
+				0D83955F03E5FC5921A4C588EFCD029A /* FunAccordionView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D236DD2FF59167676A570F59EB171A8 /* Pods-FunAccordionViewExample */ = {
+		05284D64491971059D46D82D45757CBC /* Pods-FunAccordionViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2B32108394F3A7E63ADF4A6AABD946E /* Build configuration list for PBXNativeTarget "Pods-FunAccordionViewExample" */;
+			buildConfigurationList = 09117158C0A02D0DBEA195B2A7330934 /* Build configuration list for PBXNativeTarget "Pods-FunAccordionViewExample" */;
 			buildPhases = (
-				E414B5FAFD777E1E42AA4F0740ECD6A8 /* Headers */,
-				7EBF1E55AAEB77EB833622FCEBBA8C56 /* Sources */,
-				0A4A276CD9C86541129740D3E4EBB359 /* Frameworks */,
-				591FE6890C905F65A17D12F89A3FC18B /* Resources */,
+				A08C9776C0E8EF2CC12EE19D45DE737A /* Sources */,
+				C999E1B4A4B4760EF4309EA838443E81 /* Frameworks */,
+				7A1FA48A78513E84906D28BC25985662 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1A7F136FE9B4195E18A7CE962949B0BD /* PBXTargetDependency */,
+				F552D543BF45965587859D86063C1653 /* PBXTargetDependency */,
 			);
 			name = "Pods-FunAccordionViewExample";
 			productName = "Pods-FunAccordionViewExample";
 			productReference = C8659817275FEA2272548D66052F4844 /* Pods_FunAccordionViewExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3FE9795A28BD145E56E5F03E4C256FC6 /* FunAccordionView */ = {
+		E97E033F2AD73E8AD4DF9364C4A58C14 /* FunAccordionView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DAAD39373772870F78F09AD76191BBB /* Build configuration list for PBXNativeTarget "FunAccordionView" */;
+			buildConfigurationList = BC73A453F875EE499AE6442F197B6345 /* Build configuration list for PBXNativeTarget "FunAccordionView" */;
 			buildPhases = (
-				311988EDF77F40EF60B96F2724983C03 /* Headers */,
-				B1433369DAFF193BD6049524BDE8AFBE /* Sources */,
-				1B7B6517F1837705568087E7E3A8E777 /* Frameworks */,
-				761630C0FD06514063F57056368C9691 /* Resources */,
+				8E708155257F2F00AEDB8ADA9BAEE88F /* Sources */,
+				676B8858069BC6E3225761306F9C307C /* Frameworks */,
+				B280085D25457FD3D49BCB259CE2EE98 /* Headers */,
+				C1B29FD7E60E284671E9F3575EB8609C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -295,181 +294,60 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FE9795A28BD145E56E5F03E4C256FC6 /* FunAccordionView */,
-				0D236DD2FF59167676A570F59EB171A8 /* Pods-FunAccordionViewExample */,
+				E97E033F2AD73E8AD4DF9364C4A58C14 /* FunAccordionView */,
+				05284D64491971059D46D82D45757CBC /* Pods-FunAccordionViewExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		591FE6890C905F65A17D12F89A3FC18B /* Resources */ = {
+		C1B29FD7E60E284671E9F3575EB8609C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		761630C0FD06514063F57056368C9691 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5DEC093353C1798C8B671F4D0559B12 /* Assets.xcassets in Resources */,
-				6C2C5F771E4655DBC46942EA7596CE0A /* FunAVCell.xib in Resources */,
+				1C2A4BBCC29777B89C9FF7A4AED084CA /* Assets.xcassets in Resources */,
+				58554B489B05C867F3308C8C1D46CFAB /* FunAVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7EBF1E55AAEB77EB833622FCEBBA8C56 /* Sources */ = {
+		8E708155257F2F00AEDB8ADA9BAEE88F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF323C8238B7B865328306395A7458D /* Pods-FunAccordionViewExample-dummy.m in Sources */,
+				B5FCD9FFC50ECA771E9B289FEDDE65AB /* FunAccordionView-dummy.m in Sources */,
+				E2999E3E28BE8DB3B4CC16BA9ECAD159 /* FunAccordionView.swift in Sources */,
+				A0931C9DF3150EFBE4DD60571A2F6C58 /* FunAVCell.swift in Sources */,
+				47E3232938DDA8BD35642A8508528322 /* FunAVCellButton.swift in Sources */,
+				B8F4A7769CCCA3474E83598B8CD0301F /* FunAVCellButtonType.swift in Sources */,
+				19C07338886935B41E0670FBA6DFBEBF /* FunAVController.swift in Sources */,
+				67C19BFCD3675A64C3D59D35761DA0F4 /* FunAVOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1433369DAFF193BD6049524BDE8AFBE /* Sources */ = {
+		A08C9776C0E8EF2CC12EE19D45DE737A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4468C9EBCCAED847B3E9BCC8488E57A3 /* FunAccordionView-dummy.m in Sources */,
-				48CE90F4FC82B95A44B2087F02137E34 /* FunAccordionView.swift in Sources */,
-				38355ECF88A6537B8444B4D90FA68125 /* FunAVCell.swift in Sources */,
-				C75D3798D2CCFED699054AD421D853DC /* FunAVCellButton.swift in Sources */,
-				1992A14E2B47A4A87C8BB0594FB7D734 /* FunAVCellButtonType.swift in Sources */,
-				BD2E88C36630C5E806116081CCF1388A /* FunAVController.swift in Sources */,
-				AC49456CA36CC492B0544BC79705B877 /* FunAVOption.swift in Sources */,
+				66C5F81CF95C22FCBCDDB5A6CE3EC698 /* Pods-FunAccordionViewExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A7F136FE9B4195E18A7CE962949B0BD /* PBXTargetDependency */ = {
+		F552D543BF45965587859D86063C1653 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FunAccordionView;
-			target = 3FE9795A28BD145E56E5F03E4C256FC6 /* FunAccordionView */;
-			targetProxy = C5422C6233B1D271CE40AFF6A7DAB8FB /* PBXContainerItemProxy */;
+			target = E97E033F2AD73E8AD4DF9364C4A58C14 /* FunAccordionView */;
+			targetProxy = C60C39525DC0971440DF7F68D271B5C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CB695391D7B169AC3D235A4DD8FA1A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76D1393542DF9748B3301DC744B1C53D /* Pods-FunAccordionViewExample.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FunAccordionViewExample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FunAccordionViewExample/Pods-FunAccordionViewExample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		127C2022DE1436D8057125A9089CF3D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A39EED14722529B604610B111B6D9DF0 /* Pods-FunAccordionViewExample.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FunAccordionViewExample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FunAccordionViewExample/Pods-FunAccordionViewExample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		17FF42C905654EC17F2BCC188B55834C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B901F87827EDD773130C4E327269A3F2 /* FunAccordionView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FunAccordionView/FunAccordionView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FunAccordionView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FunAccordionView/FunAccordionView.modulemap";
-				PRODUCT_MODULE_NAME = FunAccordionView;
-				PRODUCT_NAME = FunAccordionView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DFC9796FA9E6BCF680E1E0B1780DD0D /* Release */ = {
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -521,17 +399,13 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		9E97CB12DA009308040715B53220B622 /* Debug */ = {
+		2DBC1945F614B6FC1FA835652B975568 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B901F87827EDD773130C4E327269A3F2 /* FunAccordionView.xcconfig */;
 			buildSettings = {
@@ -560,6 +434,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -567,7 +442,7 @@
 			};
 			name = Debug;
 		};
-		E19471FE7E209D0818DAFB22D649A6E9 /* Debug */ = {
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -621,44 +496,159 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5F6EA0D4A851C6664AFA076F0A22AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39EED14722529B604610B111B6D9DF0 /* Pods-FunAccordionViewExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FunAccordionViewExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunAccordionViewExample/Pods-FunAccordionViewExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1B1221E638BBF657FEB5B005348C7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B901F87827EDD773130C4E327269A3F2 /* FunAccordionView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FunAccordionView/FunAccordionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunAccordionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FunAccordionView/FunAccordionView.modulemap";
+				PRODUCT_MODULE_NAME = FunAccordionView;
+				PRODUCT_NAME = FunAccordionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E955B2C1682FE183199204D5FF9A1685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D1393542DF9748B3301DC744B1C53D /* Pods-FunAccordionViewExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FunAccordionViewExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunAccordionViewExample/Pods-FunAccordionViewExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		09117158C0A02D0DBEA195B2A7330934 /* Build configuration list for PBXNativeTarget "Pods-FunAccordionViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E955B2C1682FE183199204D5FF9A1685 /* Debug */,
+				D5F6EA0D4A851C6664AFA076F0A22AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E19471FE7E209D0818DAFB22D649A6E9 /* Debug */,
-				8DFC9796FA9E6BCF680E1E0B1780DD0D /* Release */,
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DAAD39373772870F78F09AD76191BBB /* Build configuration list for PBXNativeTarget "FunAccordionView" */ = {
+		BC73A453F875EE499AE6442F197B6345 /* Build configuration list for PBXNativeTarget "FunAccordionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E97CB12DA009308040715B53220B622 /* Debug */,
-				17FF42C905654EC17F2BCC188B55834C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B2B32108394F3A7E63ADF4A6AABD946E /* Build configuration list for PBXNativeTarget "Pods-FunAccordionViewExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0CB695391D7B169AC3D235A4DD8FA1A9 /* Debug */,
-				127C2022DE1436D8057125A9089CF3D6 /* Release */,
+				2DBC1945F614B6FC1FA835652B975568 /* Debug */,
+				E1B1221E638BBF657FEB5B005348C7C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
